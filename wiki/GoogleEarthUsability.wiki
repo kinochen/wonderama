@@ -1,4 +1,4 @@
-#Project to make Google Earth easy to use on Wonderama
+#summary Project to make Google Earth easy to use on Wonderama
 
 = Google Earth Usability Issues with multi-screen Wonderama =
 
@@ -10,6 +10,6 @@ Loading and exploring KML
 
 ==  Possible Software Helpers ==
 
-* Synergy
-* Sikuli
-* Input Director
+* Synergy - multiplatform keyboard/mouse sharing
+* Sikuli - multiplatform GUI scripting tool
+* Input Director - windows only keyboard/mouse sharing
