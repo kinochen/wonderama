@@ -1,0 +1,5 @@
+#summary Project to setup CaveSL on Wonderama
+
+= CaveSL =
+
+SecondLife is one the apps we want to run on the Wonderama.
