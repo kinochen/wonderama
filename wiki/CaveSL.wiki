@@ -2,4 +2,4 @@
 
 = CaveSL =
 
-SecondLife is one the apps we want to run on the Wonderama.
+Second Life is one the apps we want to run on the Wonderama.
