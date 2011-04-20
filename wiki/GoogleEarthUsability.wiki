@@ -1,0 +1,15 @@
+#Project to make Google Earth easy to use on Wonderama
+
+= Google Earth Usability Issues with multi-screen Wonderama =
+
+Interacting with Google Earth on the vis rig should be as straight forward as possible. Users should be able to interact with Google Earth in much the same way as they down on standalone application the desktop.
+
+== Use Cases ==
+
+Loading and exploring KML
+
+==  Possible Software Helpers ==
+
+* Synergy
+* Sikuli
+* Input Director
