@@ -10,6 +10,10 @@ Loading and exploring KML
 
 ==  Possible Software Helpers ==
 
-* Synergy - multiplatform keyboard/mouse sharing
-* Sikuli - multiplatform GUI scripting tool
-* Input Director - windows only keyboard/mouse sharing
+* Synergy* keyboard/mouse sharing (Windows/Mac/Linux, open-source)
+
+* Sikuli* GUI scripting tool (Windows/Mac/Linux, open-source)
+
+* Input Director* keyboard/mouse sharing and broadcast (Windows, shareware)
+
+* AutoSizer* Control window placement and size on Windows (Windows, freeware)
