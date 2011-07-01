@@ -1,12 +1,12 @@
 #summary A view sync version of tron tank webgl demo using websockets
 
-= SceneJs Tron Tank Liquid Galaxy WebGl Demo =
+= !SceneJs Tron Tank Liquid Galaxy WebGL Demo =
 
 <img width="720" height="405" src="https://lh5.googleusercontent.com/-ikvunZb7Lsc/Tg1mTIlLFHI/AAAAAAAABRA/7cJA2rEoWek/s720/trongl-2-wonderama.JPG">
 
 == Introduction ==
 
-Multi-machine view synchronisation attempt for a WebGL app.
+A test for using !WebSocket to achieve multi-machine view synchronisation attempt from a WebGL app.
 
 These variables are sent from the master to the slave views..
 
@@ -16,7 +16,7 @@ These variables are sent from the master to the slave views..
 
 For the master view the camera always !LooksAt !TankPos, the slave views are supposed to calculate offset views (doesn't quite work :)
 
-*The viewsync bit is working, but the matrix math to align/offset the views isn't quite right. Please HELP!*
+*The view sync bit is working, but the matrix math to align/offset the views isn't quite right. Please HELP!*
 
 == How to Build ==
 
@@ -26,20 +26,20 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
   # Download tronlg.html, tron-tank-lg.js and relay-websocket.pl from this source repo [http://code.google.com/p/wonderama/source/browse/#svn%2Ftrunk%2Ftron-tank /trunk/tron-tank/]
   # Place tronlg.html and tron-tank-lg.js in the examples/tron-tank folder for the scenejs tron tank (above).
   # Place relay-websocket.pl in the examples/ folder for vti's !ReAnimator Perl lib (above).
-  # Modify tron-tank-lg.js replacing the !WebSocket server IP address with the IP of the machine running the Perl !Websocket relay'er.
+  # Modify tron-tank-lg.js replacing the !WebSocket server IP address with the IP of the machine running the Perl !WebSocket relay'er.
 
 == How to run it ==
 
   # *./relay_websocket.pl*
   # From webgl browser access */tronlg.html?master* (center)
-  # */tronlg.html?rot=-1* (right)
-  # */tronlg.html?rot=1* (left)
+  # */tronlg.html?rot=-1* (or -2, -3, etc) right-side views
+  # */tronlg.html?rot=1* (or 2, 3, etc) left-side views
   # Use mouse in the Master instance to control the tank and camera position
 
 == What needs fixing == 
 
-  # slave viewpoints are yonku, trying pitching up towards 90 degrees
+  # slave view offsets aren't right, trying pitching up towards 90 degrees. 3D matrix maths anyone?
   # better way to resize/fullscreen canvas?
-  # pitch doesn't seem to go all the way to the ground anymore?
-  # might be nice to add a camera control in addition to the "swing to front" one.
-  # huge code cleanup! 
+  # camera/eye position (pitch) doesn't seem to go all the way to the ground anymore?
+  # might be nice to add user-controlled or orbit camera in addition to the "swing to front" one.
+  # huge code cleanup because of my hack job! 
