@@ -47,7 +47,17 @@ You should run the Master (center) up first, followed by the slaves. After the i
   # websocket perl relay needs smarts about differentiating master and slave clients and when to "drop" clients? 
   # better way to resize/fullscreen canvas?
   # camera/eye position (pitch) doesn't seem to go all the way down to the ground anymore?
-  # might be nice to add user-controllable or orbit camera in addition to the "swing to front" one.
+
   # huge code cleanup because of my hack job!
+
+== Future Ideas ==
+
+  # might be nice to add user-controllable or orbit camera in addition to the "swing to front" one.
   # need to find a !SpaceNavigator Javascript control? Perhaps javascript-joystick will do.
+  # procedural city/block model.
+  # ability to fire the canon and blow stuff up!
+  # light cycles!
+  # grid texture is a bit so-so
+  # sound fx, spatial sound fx
+
  
