@@ -6,11 +6,13 @@
 
 == Introduction ==
 
-A test for using !WebSocket to achieve multi-machine view synchronisation attempt from a WebGL app.
+Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lindsay Kay] and [http://www.scenejs.org/ SceneJS] for the Tron Tank demo!
+
+This is my quick test seeing whether !WebSocket is viable for achieving multi-machine view synchronisation with WebGL apps.
 
 These variables are sent from the master to the slave views..
 
-  # tankYaw (degrees) - rotation of tank
+  # tankYaw (degrees) - rotation of tank wrt to grid plane
   # tankPos (x,y,z) - position of tank in the world
   # eyePos (x,y,z) - position of camera in the world
 
