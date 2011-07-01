@@ -43,9 +43,9 @@ You should run the Master (center) up first, followed by the slaves. After the i
 
 == What needs fixing == 
 
-  # slave view offsets aren't right, trying pitching up towards 90 degrees. 3D matrix maths anyone?
-  # websocket perl relay needs more smarts about master and slave clients. how to "drop" clients? 
+  # slave view offsets aren't right, trying pitching up towards 90 degrees! 3D matrix maths anyone?
+  # websocket perl relay needs smarts about differentiating master and slave clients and when to "drop" clients? 
   # better way to resize/fullscreen canvas?
-  # camera/eye position (pitch) doesn't seem to go all the way to the ground anymore?
-  # might be nice to add user-controlled or orbit camera in addition to the "swing to front" one.
+  # camera/eye position (pitch) doesn't seem to go all the way down to the ground anymore?
+  # might be nice to add user-controllable or orbit camera in addition to the "swing to front" one.
   # huge code cleanup because of my hack job! 
