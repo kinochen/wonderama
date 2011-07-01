@@ -51,7 +51,7 @@ You should run the Master (center) up first, followed by the slaves. After the i
 
 == Future Ideas ==
 
-  # might be nice to add user-controllable or orbit camera in addition to the "swing to front" one.
+  # add user-controllable or orbiting camera in addition to the "swing to front" view.
   # need to find a !SpaceNavigator Javascript control? Perhaps javascript-joystick will do.
   # procedural city/block model generator.
   # ability to fire the canon and blow stuff up!
