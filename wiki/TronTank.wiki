@@ -39,8 +39,7 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
   # */tronlg.html?rot=1* (or 2, 3, etc) left-side views
   # Use mouse in the Master instance to control the tank and camera position
 
-You should run the Master up first, followed by the slaves. but after the initial setup you can reload either and things will work, as the Master view s the only one "transmitting".
-
+You should run the Master (center) up first, followed by the slaves. After the initial setup you can reload any instance and things will work, as the Master view is the only one transmitting.
 
 == What needs fixing == 
 
