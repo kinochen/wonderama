@@ -1,6 +1,6 @@
 #summary A view sync version of tron tank webgl demo using websockets
 
-= SceneJS Tron Tank Liquid Galaxy WebGL Demo =
+= SceneJS Tron Tank on Liquid Galaxy WebGL Demo =
 
 <img width="720" height="405" src="https://lh5.googleusercontent.com/-ikvunZb7Lsc/Tg1mTIlLFHI/AAAAAAAABRA/7cJA2rEoWek/s720/trongl-2-wonderama.JPG">
 
