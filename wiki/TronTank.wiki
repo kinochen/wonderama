@@ -37,7 +37,7 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
   # From webgl browser access */tronlg.html?master* (center)
   # */tronlg.html?rot=-1* (or -2, -3, etc) right-side views
   # */tronlg.html?rot=1* (or 2, 3, etc) left-side views
-  # Use mouse in the Master instance to control the tank and camera position
+  # Use mouse on the Master instance to control the tank and camera position
 
 You should run the Master (center) up first, followed by the slaves. After the initial setup you can reload any instance and things will work, as the Master view is the only one transmitting.
 
@@ -48,4 +48,6 @@ You should run the Master (center) up first, followed by the slaves. After the i
   # better way to resize/fullscreen canvas?
   # camera/eye position (pitch) doesn't seem to go all the way down to the ground anymore?
   # might be nice to add user-controllable or orbit camera in addition to the "swing to front" one.
-  # huge code cleanup because of my hack job! 
+  # huge code cleanup because of my hack job!
+  # need to find a SpaceNavigator Javascript control? Perhaps javascript-joystick will do.
+ 
