@@ -1,0 +1,38 @@
+#summary A view sync version of tron tank webgl demo using websockets
+
+= Introduction =
+
+Multi-machine view synchronisation attempt for a WebGL app.
+
+= Requirements & Source =
+
+Grab original "tron-tank" source from http://scenejs.org/dist/curr/extr/examples/tron-tank/index.html
+
+Download Perl libraries needed for "relay-websocket.pl"
+
+vti's Perl libraries for ReAnimator. See 
+
+http://showmetheco.de/articles/2010/11/timtow-to-build-a-websocket-server-in-perl
+
+Download tronlg.html, tron-tank-lg.js and relay-websocket.pl from this Source repo /trunk/tron-tank/
+
+Modifiy tron-tank-lg.js replacing the WebSocket server IP address with the IP of the machine running the Perl Websocket relay'er.
+
+= How to run it =
+
+./relay_websocket.pl
+
+/tronlg.html?master (center)
+/tronlg.html?rot=-1 (right)
+/tronlg.html?rot=1 (left)
+
+
+
+
+
+
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
