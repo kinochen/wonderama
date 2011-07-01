@@ -22,13 +22,13 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
 
 == How to Build ==
 
-  # Grab the original "tron-tank" source from http://scenejs.org/dist/curr/extr/examples/tron-tank/index.html !SceneJS examples site]. Place this on a local webserver. Test that the trontank works as is.
+  # Grab the original "tron-tank" source from [http://scenejs.org/dist/curr/extr/examples/tron-tank/index.html SceneJS examples site]. Place this on a local webserver. Test that the original Tron Tank app works with your browser.
   # Download the Perl libraries needed for "relay-websocket.pl" from [http://showmetheco.de/articles/2010/11/timtow-to-build-a-websocket-server-in-perl WebSocket in Perl]. Namely !ReAnimator and !EventReactor.
-  # Run the some of the example !WebSocket Perl services. eg. "chat" to confirm !WebSocket will work with your browser.
+  # Run some of the example !WebSocket Perl services. eg. "chat" to confirm !WebSocket is working with your browser.
   # Download tronlg.html, tron-tank-lg.js and relay-websocket.pl from this source repo [http://code.google.com/p/wonderama/source/browse/#svn%2Ftrunk%2Ftron-tank /trunk/tron-tank/]
-  # Place tronlg.html and tron-tank-lg.js in the examples/tron-tank folder for the scenejs tron tank (above).
-  # Place relay-websocket.pl in the examples/ folder for vti's !ReAnimator Perl lib (above).
-  # Modify tron-tank-lg.js replacing the !WebSocket server IP address with the IP of the machine running the Perl !WebSocket relay'er.
+  # Place tronlg.html and tron-tank-lg.js in the examples/tron-tank folder for the scenejs tron tank (downloaded above).
+  # Place relay-websocket.pl in the examples/ folder for vti's !ReAnimator Perl lib (downloaded above).
+  # Modify tron-tank-lg.js replacing the !WebSocket server IP address with the IP of the machine running your Perl !WebSocket relay'er.
 
 == How to run it ==
 
@@ -38,9 +38,13 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
   # */tronlg.html?rot=1* (or 2, 3, etc) left-side views
   # Use mouse in the Master instance to control the tank and camera position
 
+You should run the Master up first, followed by the slaves. but after the initial setup you can reload either and things will work, as the Master view s the only one "transmitting".
+
+
 == What needs fixing == 
 
   # slave view offsets aren't right, trying pitching up towards 90 degrees. 3D matrix maths anyone?
+  # websocket perl relay needs more smarts about master and slave clients. how to "drop" clients? 
   # better way to resize/fullscreen canvas?
   # camera/eye position (pitch) doesn't seem to go all the way to the ground anymore?
   # might be nice to add user-controlled or orbit camera in addition to the "swing to front" one.
