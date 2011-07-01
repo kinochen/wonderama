@@ -16,9 +16,9 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
 
 = How to Build =
 
-  # Grab the original "tron-tank" source from [http://scenejs.org/dist/curr/extr/examples/tron-tank/index.html SceneJS examples site]. Place this on a local webserver. Test that the trontank works as is.
-  # Download the Perl libraries needed for "relay-websocket.pl" from [http://showmetheco.de/articles/2010/11/timtow-to-build-a-websocket-server-in-perl WebSocket in Perl]. Namely !ReAnimator and !EventReactor.
-  # Run the some of the example WebSocket Perl services. eg. "chat" to confirm WebSocket will work with your browser.
+  # Grab the original "tron-tank" source from [http://scenejs.org/dist/curr/extr/examples/tron-tank/index.html !SceneJS examples site]. Place this on a local webserver. Test that the trontank works as is.
+  # Download the Perl libraries needed for "relay-websocket.pl" from [http://showmetheco.de/articles/2010/11/timtow-to-build-a-websocket-server-in-perl !WebSocket in Perl]. Namely !ReAnimator and !EventReactor.
+  # Run the some of the example !WebSocket Perl services. eg. "chat" to confirm !WebSocket will work with your browser.
   # Download tronlg.html, tron-tank-lg.js and relay-websocket.pl from this source repo [http://code.google.com/p/wonderama/source/browse/#svn%2Ftrunk%2Ftron-tank /trunk/tron-tank/]
   # Place tronlg.html and tron-tank-lg.js in the examples/tron-tank folder for the scenejs tron tank (above).
   # Place relay-websocket.pl in the examples/ folder for vti's ReAnimator Perl lib (above).
@@ -30,6 +30,4 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
   # From webgl browser access /tronlg.html?master (center)
   # /tronlg.html?rot=-1 (right)
   # /tronlg.html?rot=1 (left)
-
-
 
