@@ -59,9 +59,6 @@ You should run the Master (center) up first, followed by the slaves. After the i
   # grid texture is a bit so-so, replace it with better, or draw it?
   # sound fx, followed by spatial sound fx
   # multiplayer tanks, network play, etc.
-  # 2d overview map, compass, headsup display, map/maze builder
-  # revitalize and/or re-use code from [http://documentation.wikia.com/wiki/Xtank/Introduction XTank] (circa 1995)
-
-... getting carried away...
-
+  # 2d overview map, compass, radar, headsup display, map/maze builder
+  # revitalize and/or re-use code from [http://kernigh.pbworks.com/w/page/9214137/Xtank Xtank] (early 1990's) or [http://www.gltron.org/ GLtron]  _... now getting carried away..._
  
