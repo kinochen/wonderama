@@ -1,6 +1,10 @@
 #summary A view sync version of tron tank webgl demo using websockets
 
-= Introduction =
+= SceneJs Tron Tank Liquid Galaxy WebGl Demo =
+
+<img width="720" height="405" src="https://lh5.googleusercontent.com/-ikvunZb7Lsc/Tg1mTIlLFHI/AAAAAAAABRA/7cJA2rEoWek/s720/trongl-2-wonderama.JPG">
+
+== Introduction ==
 
 Multi-machine view synchronisation attempt for a WebGL app.
 
@@ -14,7 +18,7 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
 
 *The viewsync bit is working, but the matrix math to align/offset the views isn't quite right. Please HELP!*
 
-= How to Build =
+== How to Build ==
 
   # Grab the original "tron-tank" source from http://scenejs.org/dist/curr/extr/examples/tron-tank/index.html !SceneJS examples site]. Place this on a local webserver. Test that the trontank works as is.
   # Download the Perl libraries needed for "relay-websocket.pl" from [http://showmetheco.de/articles/2010/11/timtow-to-build-a-websocket-server-in-perl WebSocket in Perl]. Namely !ReAnimator and !EventReactor.
@@ -24,14 +28,15 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
   # Place relay-websocket.pl in the examples/ folder for vti's !ReAnimator Perl lib (above).
   # Modify tron-tank-lg.js replacing the !WebSocket server IP address with the IP of the machine running the Perl !Websocket relay'er.
 
-= How to run it =
+== How to run it ==
 
   # *./relay_websocket.pl*
   # From webgl browser access */tronlg.html?master* (center)
   # */tronlg.html?rot=-1* (right)
   # */tronlg.html?rot=1* (left)
+  # Use mouse in the Master instance to control the tank and camera position
 
-= What needs fixing = 
+== What needs fixing == 
 
   # slave viewpoints are yonku, trying pitching up towards 90 degrees
   # better way to resize/fullscreen canvas?
