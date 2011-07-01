@@ -4,35 +4,34 @@
 
 Multi-machine view synchronisation attempt for a WebGL app.
 
-= Requirements & Source =
+These variables are sent from the master to the slave views..
 
-Grab original "tron-tank" source from http://scenejs.org/dist/curr/extr/examples/tron-tank/index.html
+  # tankYaw (degrees) - rotation of tank
+  # tankPos (x,y,z) - position of tank in the world
+  # eyePos (x,y,z) - position of camera in the world
 
-Download Perl libraries needed for "relay-websocket.pl"
+For the master view the camera always !LooksAt !TankPos, the slave views are supposed to calculate offset views (doesn't quite work :)
 
-vti's Perl libraries for ReAnimator. See 
+*The viewsync bit is working, but the matrix math to align/offset the views isn't quite right. Please HELP!*
 
-http://showmetheco.de/articles/2010/11/timtow-to-build-a-websocket-server-in-perl
+= How to Build =
 
-Download tronlg.html, tron-tank-lg.js and relay-websocket.pl from this Source repo /trunk/tron-tank/
-
-Modifiy tron-tank-lg.js replacing the WebSocket server IP address with the IP of the machine running the Perl Websocket relay'er.
+  # Grab the original "tron-tank" source from [http://scenejs.org/dist/curr/extr/examples/tron-tank/index.html SceneJS examples site]
+  # Download Perl libraries needed for "relay-websocket.pl" see [http://showmetheco.de/articles/2010/11/timtow-to-build-a-websocket-server-in-perl WebSocket in Perl].
+  # Setup the Perl service test it with some of the simple examples.
+  # Download tronlg.html, tron-tank-lg.js and relay-websocket.pl from this source repo /trunk/tron-tank/
+  # Place tronlg.html and tron-tank-lg.js in the examples/tron-tank folder for the scenejs tron tank.
+  # Place relay-websocket.pl in the examples/ folder for vti's ReAnimator Perl lib.
+  # Modify tron-tank-lg.js replacing the WebSocket server IP address with the IP of the machine running the Perl Websocket relay'er.
 
 = How to run it =
 
-./relay_websocket.pl
-
-/tronlg.html?master (center)
-/tronlg.html?rot=-1 (right)
-/tronlg.html?rot=1 (left)
-
+  # ./relay_websocket.pl
+  # From webgl browser access /tronlg.html?master (center)
+  # /tronlg.html?rot=-1 (right)
+  # /tronlg.html?rot=1 (left)
 
 
 
 
 
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
