@@ -34,10 +34,10 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
 == How to run it ==
 
   # Run the Perl service *./relay_websocket.pl*
-  # From webgl browser access */tronlg.html?master* (center)
-  # */tronlg.html?rot=-1* (or -2, -3, etc) right-side views
-  # */tronlg.html?rot=1* (or 2, 3, etc) left-side views
-  # Use mouse on the Master instance to control the tank and camera position
+  # From a webgl browser on the middle machine access *http://.../tronlg.html?master*
+  # on the right-hand screens access *http://.../tronlg.html?rot=-1* or -2, -3, etc.
+  # on the left-hand machines use *http://.../tronlg.html?rot=1* or 2, 3, etc.
+  # Use mouse on the Master instance to control the tank and camera position.
 
 You should run the Master (center) up first, followed by the slaves. After the initial setup you can reload any instance and things will work, as the Master view is the only one transmitting.
 
