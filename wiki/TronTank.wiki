@@ -34,9 +34,9 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
 == How to run it ==
 
   # Run the Perl service *./relay_websocket.pl*
-  # From a webgl browser on the middle machine access *http://.../tronlg.html?master*
-  # on the right-hand screens access *http://.../tronlg.html?rot=-1* or -2, -3, etc.
-  # on the left-hand machines use *http://.../tronlg.html?rot=1* or 2, 3, etc.
+  # From a webgl browser on the middle machine access *http://.../tronlg.html?master *
+  # on the right-hand screens access *http://.../tronlg.html?rot=-1 * or -2, -3, etc.
+  # on the left-hand machines use *http://.../tronlg.html?rot=1 * or 2, 3, etc.
   # Use mouse on the Master instance to control the tank and camera position.
 
 You should run the Master (center) up first, followed by the slaves. After the initial setup you can reload any instance and things will work, as the Master view is the only one transmitting.
@@ -44,9 +44,9 @@ You should run the Master (center) up first, followed by the slaves. After the i
 == What needs fixing == 
 
   # *slave view offsets aren't right, trying pitching up towards 90 degrees! 3D matrix maths anyone?*
-  # websocket perl relay needs smarts about differentiating master and slave clients and when to "drop" clients? 
-  # need to dynamically resize and fullscreen the canvas.
-  # camera/eye position (pitch) doesn't seem to go all the way down to the ground anymore?
+  # the websocket relay needs smarts to differentiate master and slave clients and when to drop clients.
+  # need to dynamically resize and fullscreen the canvas. CSS?
+  # the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.
   # huge code cleanup because of my hack job!
 
 == Future Ideas ==
