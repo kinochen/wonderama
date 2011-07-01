@@ -60,6 +60,8 @@ You should run the Master (center) up first, followed by the slaves. After the i
   # sound fx, followed by spatial sound fx
   # multiplayer tanks, network play, etc.
   # 2d overview map, compass, headsup display, map/maze builder
-  # ... getting carried away...
+  # revitalize and/or re-use code from [http://documentation.wikia.com/wiki/Xtank/Introduction XTank] (circa 1995)
+
+... getting carried away...
 
  
