@@ -6,9 +6,9 @@
 
 == Introduction ==
 
-Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lindsay Kay] and [http://www.scenejs.org/ SceneJS] for the Tron Tank demo!
+Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lindsay Kay] and [http://www.scenejs.org/ SceneJS] for the Tron Tank demo, and [http://www.greggman.com/ Gregg Tavares] for helping to get the view offset maths working this far!
 
-This is my quick test seeing whether !WebSocket is viable for achieving multi-machine view synchronisation with WebGL apps.
+This is just a quick hack to see whether !WebSocket is viable for achieving multi-machine view synchronisation with WebGL apps.
 
 These variables are sent from the master to the slave views..
 
