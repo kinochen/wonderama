@@ -53,10 +53,13 @@ You should run the Master (center) up first, followed by the slaves. After the i
 
   # might be nice to add user-controllable or orbit camera in addition to the "swing to front" one.
   # need to find a !SpaceNavigator Javascript control? Perhaps javascript-joystick will do.
-  # procedural city/block model.
+  # procedural city/block model generator.
   # ability to fire the canon and blow stuff up!
-  # light cycles!
-  # grid texture is a bit so-so
-  # sound fx, spatial sound fx
+  # other tanks and light cycles.
+  # grid texture is a bit so-so, replace it with better, or draw it?
+  # sound fx, followed by spatial sound fx
+  # multiplayer tanks, network play, etc.
+  # 2d overview map, compass, headsup display, map/maze builder
+  # ... getting carried away...
 
  
