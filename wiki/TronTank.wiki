@@ -12,9 +12,9 @@ This is just a quick hack to see whether !WebSocket is viable for achieving mult
 
 These variables are sent from the master to the slave views..
 
-  # tankYaw (degrees) - rotation of tank wrt to grid plane
-  # tankPos (x,y,z) - position of tank in the world
-  # eyePos (x,y,z) - position of camera in the world
+  * tankYaw (degrees) - rotation of tank wrt to grid plane
+  * tankPos (x,y,z) - position of tank in the world
+  * eyePos (x,y,z) - position of camera in the world
 
 For the master view the camera always !LooksAt !TankPos, the slave views are supposed to calculate offset views (doesn't quite work :)
 
@@ -39,15 +39,15 @@ For the master view the camera always !LooksAt !TankPos, the slave views are sup
   # on the left-hand machines use *http://.../tronlg.html?rot=1 * or 2, 3, etc.
   # Use mouse on the Master instance to control the tank and camera position.
 
-You should run the Master (center) up first, followed by the slaves. After the initial setup you can reload any instance and things will work, as the Master view is the only one transmitting.
+You should run the Master (center) up first, followed by the slaves. After the initial setup you can reload any instance and things will work, since the Master view is the only one transmitting.
 
 == What needs fixing == 
 
-  # *slave view offsets aren't right, trying pitching up towards 90 degrees! 3D matrix maths anyone?*
-  # the websocket relay needs smarts to differentiate master and slave clients and when to drop clients.
-  # need to dynamically resize and fullscreen the canvas. CSS?
-  # the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.
-  # huge code cleanup because of my hack job!
+  * *slave view offsets aren't right, trying pitching up towards 90 degrees. 3D matrix maths anyone?*
+  * the websocket relay needs smarts to differentiate master and slave clients and when to drop clients.
+  * need to dynamically resize and fullscreen the canvas. CSS?
+  * the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.
+  * code cleanup because of my hack job!
 
 == Future Ideas ==
 
@@ -56,9 +56,9 @@ You should run the Master (center) up first, followed by the slaves. After the i
   * procedural city/block model generator.
   * ability to fire the canon and blow stuff up!
   * other tanks and light cycles.
-  * grid texture is a bit so-so, replace it with better, or draw it?
+  * grid texture is a bit so-so, replace it with better image or draw it.
   * sound fx, followed by spatial sound fx
   * multiplayer tanks, network play, etc.
   * 2d overview map, compass, radar, headsup display, map/maze builder
-  * revitalize and/or re-use code from [http://kernigh.pbworks.com/w/page/9214137/Xtank Xtank] (early 1990's) or [http://www.gltron.org/ GLtron]  _... now getting carried away..._
+  * revitalize and/or re-use code from [http://kernigh.pbworks.com/w/page/9214137/Xtank Xtank] (early 1990's) or [http://www.gltron.org/ GLtron]  _...getting carried away..._
  
