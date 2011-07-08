@@ -43,6 +43,7 @@ You should run the Master (center) up first, followed by the slaves. After the i
 
 == What needs fixing == 
 
+<wiki:video url="http://www.youtube.com/watch?v=53Xc4V6QZlQ">
   * *slave view offsets aren't right, trying pitching up towards 90 degrees. 3D matrix maths anyone?*
   * the websocket relay needs smarts to differentiate master and slave clients and when to drop clients.
   * need to dynamically resize and fullscreen the canvas. CSS?
