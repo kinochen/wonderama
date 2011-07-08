@@ -10,13 +10,17 @@ Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lind
 
 This is just a hack to find out if !WebSocket is viable for achieving multi-machine view synchronisation for WebGL apps.
 
-These variables are sent from the master to the slave views -
+These variables are sent from the Master to the Slave webGL instances -
 
   * tankYaw (degrees) - rotation of tank wrt to grid plane
   * tankPos (x,y,z) - position of tank in the world
   * eyePos (x,y,z) - position of camera in the world
 
-For the Master view the camera always !LooksAt tankPos (the is what the original demo does). The Slave views should be slightly to the 'left' and 'right' so a new camera view must be calculated.
+The middle machine is the _Master_ view. We control the tank on the _Master_ and changes are reflected in the _Slave_ views to the left and right.
+
+The camera on the _Master_ always !LooksAt tankPos (the is what the original demo does).
+
+The _Slaves_ are arranged in a semi-circle, the slave views should be slightly to the 'left' and 'right' (Y axis rotations, I think) so a new camera view must be calculated on each _Slave_.
 
 *The view sync bit is working, but the math to calculate the offset camera views isn't quite right. Please HELP!*
 
