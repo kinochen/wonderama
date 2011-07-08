@@ -1,4 +1,4 @@
-#summary A view sync version of tron tank webgl demo using websockets
+#summary A view sync version of tron tank webgl demo using websocket
 
 = SceneJS Tron Tank on Liquid Galaxy WebGL Demo =
 
@@ -8,17 +8,17 @@
 
 Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lindsay Kay] and [http://www.scenejs.org/ SceneJS] for the Tron Tank demo, and [http://www.greggman.com/ Gregg Tavares] for helping to get the view offset maths working this far!
 
-This is just a quick hack to see whether !WebSocket is viable for achieving multi-machine view synchronisation with WebGL apps.
+This is just a hack to find out if !WebSocket is viable for achieving multi-machine view synchronisation for WebGL apps.
 
-These variables are sent from the master to the slave views..
+These variables are sent from the master to the slave views -
 
   * tankYaw (degrees) - rotation of tank wrt to grid plane
   * tankPos (x,y,z) - position of tank in the world
   * eyePos (x,y,z) - position of camera in the world
 
-For the master view the camera always !LooksAt !TankPos, the slave views are supposed to calculate offset views (doesn't quite work :)
+For the Master view the camera always !LooksAt tankPos (the is what the original demo does). The Slave views should be slightly to the 'left' and 'right' so a new camera view must be calculated.
 
-*The view sync bit is working, but the matrix math to align/offset the views isn't quite right. Please HELP!*
+*The view sync bit is working, but the math to calculate the offset camera views isn't quite right. Please HELP!*
 
 == How to Build ==
 
@@ -45,6 +45,7 @@ You should run the Master (center) up first, followed by the slaves. After the i
 
 <wiki:video url="http://www.youtube.com/watch?v=53Xc4V6QZlQ">
   * *slave view offsets aren't right, trying pitching up towards 90 degrees. 3D matrix maths anyone?*
+    * probably something in cameraLookAt() function.
   * the websocket relay needs smarts to differentiate master and slave clients and when to drop clients.
   * need to dynamically resize and fullscreen the canvas. CSS?
   * the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.
