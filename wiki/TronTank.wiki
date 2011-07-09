@@ -55,7 +55,8 @@ You should run the Master (center) up first, followed by the slaves. After the i
 
 == Future Ideas ==
 
-  * replace the Perl WebSocket relayer with something easier to package? NodeJS? WebSocket 'service' in JavaScript on the Master instance?
+  * replace the Perl !WebSocket relayer with something easier to package? NodeJS?
+    * How about a !WebSocket 'service' in !JavaScript on the Master instance?
   * grid texture is a bit so-so, replace it with better image or draw it.
   * on the slave display "Waiting for MCP..." until the first view packet arrives.
   * sky/box around grid field.
