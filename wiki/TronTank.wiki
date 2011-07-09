@@ -6,7 +6,7 @@
 
 == Introduction ==
 
-Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lindsay Kay] and [http://www.scenejs.org/ SceneJS] for the Tron Tank demo, and [http://www.greggman.com/ Gregg Tavares] and Rehno for helping to get the view offset maths working!
+Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lindsay Kay] and [http://www.scenejs.org/ SceneJS] for the Tron Tank demo, and [http://www.greggman.com/ Gregg Tavares] and Rehno for getting the view offset maths working!
 
 This is a hack to see if !WebSocket/WebGL is viable for achieving view synchronisation on immersive multi-machine visualisation rigs. The test rig is a curved tile-wall based on [http://code.google.com/p/liquid-galaxy/ Google's Liquid Galaxy].
 
@@ -46,7 +46,7 @@ The _Slaves_ are arranged in a semi-circle, the slave views should be slightly t
   # on the left-hand machines use *http://.../tronlg.html?rot=1 * or 2, 3, etc.
   # Use mouse on the Master instance to control the tank and camera position.
 
-You should run the Master (center) up first, followed by the slaves. After the initial setup you can reload any instance and things will work, since the Master view is the only one transmitting.
+You should run the Master (center) first, followed by the slaves. After the initial setup you can reload any instance (eg. pressing Ctrl-R) and things will work, since the Master view is the only one transmitting via websocket.
 
 == What to Fix == 
 
