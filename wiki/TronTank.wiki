@@ -6,7 +6,7 @@
 
 == Introduction ==
 
-Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lindsay Kay] and [http://www.scenejs.org/ SceneJS] for the Tron Tank demo, and [http://www.greggman.com/ Gregg Tavares] for helping to get the view offset maths working this far!
+Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lindsay Kay] and [http://www.scenejs.org/ SceneJS] for the Tron Tank demo, and [http://www.greggman.com/ Gregg Tavares] and Rehno for helping to get the view offset maths working!
 
 This is just a hack to find out if !WebSocket is viable for achieving multi-machine view synchronisation for WebGL apps.
 
@@ -21,8 +21,6 @@ The middle machine is the _Master_ view. We control the tank on the _Master_ and
 The camera on the _Master_ always !LooksAt tankPos (the is what the original demo does).
 
 The _Slaves_ are arranged in a semi-circle, the slave views should be slightly to the 'left' and 'right' (Y axis rotations, I think) so a new camera view must be calculated on each _Slave_.
-
-*The view sync bit is working, but the math to calculate the offset camera views isn't quite right. Please HELP!*
 
 == How to Build ==
 
@@ -47,18 +45,18 @@ You should run the Master (center) up first, followed by the slaves. After the i
 
 == What needs fixing == 
 
-<wiki:video url="http://www.youtube.com/watch?v=53Xc4V6QZlQ">
-  * *slave view offsets aren't right, trying pitching up towards 90 degrees. 3D matrix maths anyone?*
-    * probably something in cameraLookAt() function.
+  * ~~slave view offsets aren't right, trying pitching up towards 90 degrees. 3D matrix maths anyone?~~
+    * ~~probably something in cameraLookAt() function~~ _Slave needed to get Up vector for setting LookAt_
   * the websocket relay needs smarts to differentiate master and slave clients and when to drop clients.
   * need to dynamically resize and fullscreen the canvas. CSS?
-  * the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.
+  * ~~the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.~~ _eye.Y was limited to >20 reduced to 2_
   * code cleanup because of my hack job!
 
 == Future Ideas ==
 
   * add user-controllable or orbiting camera in addition to the "swing to front" view.
   * need to find a !SpaceNavigator Javascript control? Perhaps [http://code.google.com/p/javascript-joystick/ javascript-joystick] will do.
+  * object detection. tank can currently drive through walls.
   * procedural city/block model generator.
   * ability to fire the canon and blow stuff up!
   * other tanks and light cycles.
