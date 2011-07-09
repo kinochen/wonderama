@@ -60,8 +60,9 @@ You should run the Master (center) up first, followed by the slaves. After the i
   * grid texture is a bit so-so, replace it with better image or draw it.
   * on the slave display "Waiting for MCP..." until the first view packet arrives.
   * sky/box around grid field.
+  * cast a shadow beneath tank?
   * home key press to return to the middle of the grid.
-  * add user-controllable or orbiting camera in addition to the "swing to front" cam.
+  * user-controled or orbiting camera in addition to the "swing to front" cam.
   * driving the tank point-of-view cam.
   * animate tracks on tank model.
   * object detection. at the moment the tank can drive through walls.
