@@ -2,7 +2,7 @@
 
 = SceneJS Tron Tank on Liquid Galaxy WebGL Demo =
 
-<img width="720" height="405" src="https://lh5.googleusercontent.com/-ikvunZb7Lsc/Tg1mTIlLFHI/AAAAAAAABRA/7cJA2rEoWek/s720/trongl-2-wonderama.JPG">
+<img width="800" height="404" src="https://lh5.googleusercontent.com/-s5QRqge5_U0/ThfsHpWbTjI/AAAAAAAABTU/PsvM5ID93B0/s800/tron-wide.jpg">
 
 == Introduction ==
 
@@ -33,6 +33,7 @@ The _Slaves_ are arranged in a semi-circle, the slave views should be slightly t
   # Modify *tron-tank-lg.js* replacing the !WebSocket server IP address with the IP of the machine running your Perl !WebSocket relay'er.
   # There are variables in *tron-tank-lg.js* to set the fov and bezel multiplier. If you've gotten this far, you'll know what to do!
 
+<img align="right" width="288" height="200" src="http://lh3.googleusercontent.com/-bYHMhI3ZmCU/ThfqMz6AbnI/AAAAAAAABTM/94IXWApw3JU/s288/tron-big2.jpg">
 == How to run it ==
 
   # Run the Perl service *./relay_websocket.pl*
@@ -55,17 +56,18 @@ You should run the Master (center) up first, followed by the slaves. After the i
 == Future Ideas ==
 
   * grid texture is a bit so-so, replace it with better image or draw it.
-  * sky/box around grid land.
+  * on the slave display "Waiting for MCP..." until the first view packet arrives.
+  * sky/box around grid field.
   * home key press to return to the middle of the grid.
   * add user-controllable or orbiting camera in addition to the "swing to front" cam.
   * driving the tank point-of-view cam.
-  * animate tracks on tank model
-  * object detection. tank can currently drive through walls.
+  * animate tracks on tank model.
+  * object detection. at the moment the tank can drive through walls.
   * procedural city/block model generator.
   * ability to fire the canon (projectile + recoil) and blow stuff up!
-  * other tanks and light cycles.
   * need to find a !SpaceNavigator Javascript control? Perhaps [http://code.google.com/p/javascript-joystick/ javascript-joystick] will do.
   * sound fx, followed by spatial sound fx
+  * other tanks and light cycles.
   * multiplayer tanks, network play, etc.
   * 2d overview map, compass, radar, headsup display, map/maze builder
   * revitalize and/or re-use code from [http://kernigh.pbworks.com/w/page/9214137/Xtank Xtank] (early 1990's) or [http://www.gltron.org/ GLtron]  _...getting carried away..._
