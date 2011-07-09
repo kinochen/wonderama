@@ -46,7 +46,7 @@ You should run the Master (center) up first, followed by the slaves. After the i
 == What needs fixing == 
 
   * ~~slave view offsets aren't right, trying pitching up towards 90 degrees. 3D matrix maths anyone?~~
-    * ~~probably something in cameraLookAt() function~~ _Slave needed to get Up vector for setting LookAt_
+    * ~~probably something in cameraLookAt() function~~ _Slave needed to get 'up' vector from Master for setting it's !LookAt 'up'_
   * the websocket relay needs smarts to differentiate master and slave clients and when to drop clients.
   * need to dynamically resize and fullscreen the canvas. CSS?
   * ~~the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.~~ _eye.Y was limited to >20 reduced to 2_
