@@ -1,3 +1,8 @@
+/* modifications for WebSocket proof of concept for immersive vis rigs such as Liquid Galaxy
+ * 
+ * Andrew Leahy
+ * alfski@gmail.com
+*/
 /* SceneJS COLLADA import example - the Tank Program from the 1982 Disney motion picture "Tron".
  *
  * This demo is a revamp of the old one for V0.7.6, using new capabilities of V0.7.8:
@@ -17,7 +22,6 @@ SceneJS.createNode({
     loggingElementId: "theLoggingDiv",
 
     nodes: [
-
         /**
          * View transform - we've given it a globally-unique ID
          * so we can look it up and update it's properties from
@@ -36,7 +40,7 @@ SceneJS.createNode({
                     optics: {
                         type: "perspective",
                         fovy : 30.0,
-                        aspect : 9 / 16, // Alf portrait LG screens
+                        aspect : 9 / 16, // Alf portrait LG screens are 9:16 vs 16:9
                         near : 0.10,
                         far : 7000.0
                     },
@@ -266,6 +270,7 @@ function getQueryStringVars() {
  *---------------------------------------------------------------------*/
 
 var needFrame = true;
+var slaveFrame = false;
 var speed = 0;
 var tankPos = { x: 0, y: 0, z: -100 };
 var lookPos = { x: 0, y: 10, z: -400 };
@@ -302,8 +307,8 @@ var args = getQueryStringVars();
 if (args["rot"]) { rotYMult = args["rot"] }
 if (args["master"]) { MASTER = 1 }
 
-var fovMult = 1.7;  // this value fits my LG. Adjust to account for gap between monitors.
-var fov = 20.0; // should probably be 60 for LG?
+var fovMult = 1.95;  // this value fits my LG. Adjust to account for gap between monitors.
+var fov = 21.0; // should probably be 60 for LG?
 var fovy = fov * Math.PI / 180;
 var fovx = Math.atan( Math.tan(fovy * 0.5) * canvas.width / canvas.height) * 2;
 var rot3x3 = Matrix.RotationY(rotYMult * fovx * -fovMult);
@@ -315,6 +320,7 @@ var rotMat = $M([
 ]);
 
 var thisMesg = ""; var lastMesg = "";
+var oldEye = { x:0, y:0, z:0 };
 
 var ws = new WebSocket("ws://137.154.151.126:3000");
 ws.onopen = function() {
@@ -323,7 +329,7 @@ ws.onopen = function() {
 
 ws.onclose = function() { };
 
-if (!MASTER) { // ie. setup onmessage to receive only on Slaves
+if (!MASTER) { // onle the SLAVES receive
 	ws.onmessage = function(e) {
                 var message = new Array();
                 message  = e.data.split(",");
@@ -334,13 +340,13 @@ if (!MASTER) { // ie. setup onmessage to receive only on Slaves
                 tankPos.x = message[4];
                 tankPos.y = message[5];
                 tankPos.z = message[6];
-                /* trailVec.x = message[7];
-                trailVec.y = message[8];
-                trailVec.z = message[9]; */
+		slaveFrame = true;
         }
 }     
 
 // Alf end LG var setup
+
+if (MASTER) { // Alf only do mouse things on Master
 
 function mouseDown(event) {
     lastX = event.clientX;
@@ -361,8 +367,6 @@ function mouseMove(event) {
     if (dragging) {
         tankYawInc = (event.clientX - lastX) * -0.01;
         pitchInc = (lastY - event.clientY) * 0.001;
-        lastX2 = event.clientX;
-        lastY2 = event.clientY;
     }
 } 
 
@@ -387,14 +391,11 @@ function mouseWheel(event) {
     event.returnValue = false;
 }
 
-
-if (MASTER) { // Alf only register these on Master
  canvas.addEventListener('mousedown', mouseDown, true);
  canvas.addEventListener('mousemove', mouseMove, true);
  canvas.addEventListener('mouseup', mouseUp, true);
  canvas.addEventListener('mousewheel', mouseWheel, true);
  canvas.addEventListener('DOMMouseScroll', mouseWheel, true);
-
 }
 
 SceneJS.bind("error", function(e) {
@@ -419,19 +420,21 @@ function cameraLookAt(eye, target, up) {
           ]);
 }
 
-SceneJS.withNode("theScene").start({
+// main loop
 
+SceneJS.withNode("theScene").start({
     idleFunc: function() {
 
-if (MASTER) { // Alf scene thigs only concerning Master view
+
+if (MASTER) { // Alf scene things only concerning Master view
          if (!needFrame && ( pitchInc == 0 && tankYawInc == 0 && speed == 0 && trailYaw == 0)) {
-            return;
+            return; // no change so let's bail
         }
         needFrame = false;
         
         pitch += pitchInc;
 
-        if (pitch < 1) { pitch = 1; }
+        if (pitch < 2) { pitch = 2; }
         if (pitch > 90) { pitch = 90; }
 
         tankYaw += tankYawInc;
@@ -460,10 +463,11 @@ if (MASTER) { // Alf scene thigs only concerning Master view
         eye.z = tankPos.z + (trailVec[2] * 35);
 
         if (eye.y > 100.0) { eye.y = 100.0; }
-        if (eye.y < 20.0) { eye.y = 20.0; }
+        if (eye.y < 2.0) { eye.y = 2.0; }
 
+	// do the websocket thing
 	thisMesg = tankYaw +","+ eye.x +","+ eye.y +","+ eye.z +","+ tankPos.x +","+ tankPos.y +","+ tankPos.z;
-        if (thisMesg != lastMesg) { // Alf send things via websocket
+        if (thisMesg != lastMesg) { // Alf update so send these numbers
                 ws.send (thisMesg );
                 lastMesg = thisMesg;
         }
@@ -479,28 +483,30 @@ if (MASTER) { // Alf scene thigs only concerning Master view
                 look: tankPos
         });
 
+} else { // change camera for SLAVE
+	if (!slaveFrame) { // if nothing to do leave.
+            return;
+        }
 
-} else { // SLAVE only Scene stuff
         var cam = cameraLookAt(eye, tankPos);
+	var newUp = { x: cam.elements[1][0], y: cam.elements[1][1], z: cam.elements[1][2] };
 	var cam = rotMat.multiply(cam);
-        var newEye = {
-          x: cam.elements[3][0],
-          y: cam.elements[3][1],
-          z: cam.elements[3][2]
-        };
+	var newEye = { x: cam.elements[3][0], y: cam.elements[3][1], z: cam.elements[3][2] };
         var newTarget = {
-          x: newEye.x - cam.elements[2][0],
-          y: newEye.y - cam.elements[2][1],
-          z: newEye.z - cam.elements[2][2]
+		x: newEye.x - cam.elements[2][0],
+		y: newEye.y - cam.elements[2][1],
+		z: newEye.z - cam.elements[2][2]
         };
 
         SceneJS.withNode("theLookAt").set({
-		eye: newEye,
-		look: newTarget
+		eye: eye,
+		look: newTarget,
+		up: newUp
         });
-} // SLAVE
+	slaveFrame = false; // dealt with recvd frame data
+} // end SLAVE camera setup
 
-// Alf common things to do with scene
+// common things to do with scene
 
         SceneJS.withNode("tankPos").set({
 		x: tankPos.x,
