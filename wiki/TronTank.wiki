@@ -1,4 +1,4 @@
-#summary A view sync version of tron tank webgl demo using websocket
+#summary A view synchronised version of tron tank webgl demo
 
 = SceneJS Tron Tank on Liquid Galaxy WebGL Demo =
 
@@ -8,15 +8,19 @@
 
 Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lindsay Kay] and [http://www.scenejs.org/ SceneJS] for the Tron Tank demo, and [http://www.greggman.com/ Gregg Tavares] and Rehno for helping to get the view offset maths working!
 
-This is just a hack to find out if !WebSocket is viable for achieving multi-machine view synchronisation for WebGL apps.
+This is a hack to see if !WebSocket/WebGL is viable for achieving view synchronisation on immersive multi-machine visualisation rigs. The test rig is a curved tile-wall based on [http://code.google.com/p/liquid-galaxy/ Google's Liquid Galaxy].
 
-These variables are sent from the Master to the Slave webGL instances -
+{{{
+Master View ---websocket--> WebSocket Relay ---websocket--> Slave Views
+}}}
+
+These variables are sent from the Master to the Slave instances -
 
   * tankYaw (degrees) - rotation of tank wrt to grid plane
   * tankPos (x,y,z) - position of tank in the world
   * eyePos (x,y,z) - position of camera in the world
 
-The middle machine is the _Master_ view. We control the tank on the _Master_ and changes are reflected in the _Slave_ views to the left and right.
+The middle machine is the _Master_ view, from which we control the tank. View changes are synchronised with the _Slave_ views looking slightly to the left and right.
 
 The camera on the _Master_ always !LooksAt tankPos (the is what the original demo does).
 
@@ -31,7 +35,7 @@ The _Slaves_ are arranged in a semi-circle, the slave views should be slightly t
   # Place *tronlg.html* and *tron-tank-lg.js* in the examples/tron-tank folder for the scenejs tron tank (from step 1).
   # Place *relay_websocket.pl* in the examples/ folder for vti's !ReAnimator Perl lib (from step 2). The relay is a basic modification of the "echo" example in that folder.
   # Modify *tron-tank-lg.js* replacing the !WebSocket server IP address with the IP of the machine running your Perl !WebSocket relay'er.
-  # There are variables in *tron-tank-lg.js* to set the fov and bezel multiplier. If you've gotten this far, you'll know what to do!
+  # There are variables in *tron-tank-lg.js* to set the `fov` and `fovMulti` (bezel factor). If you've gotten this far, you'll know what to do!
 
 <img align="right" width="288" height="200" src="http://lh3.googleusercontent.com/-bYHMhI3ZmCU/ThfqMz6AbnI/AAAAAAAABTM/94IXWApw3JU/s288/tron-big2.jpg">
 == How to run it ==
@@ -48,17 +52,21 @@ You should run the Master (center) up first, followed by the slaves. After the i
 
   * ~~slave view offsets aren't right, trying pitching up towards 90 degrees. 3D matrix maths anyone?~~
     * ~~probably something in cameraLookAt() function~~ _Slave needed to get 'up' vector from Master for setting it's !LookAt 'up'_
-  * the websocket relay needs smarts to differentiate master and slave clients and when to drop clients.
+  * the websocket relay needs more smarts to differentiate master and slave connections and a way to drop connections.
   * need to dynamically resize and fullscreen the canvas. CSS?
   * ~~the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.~~ _eye.Y was limited to >20 reduced to 2_
   * code cleanup because of my hack job!
 
 == Future Ideas ==
 
+It's unlikely I'm going to be able to do any of this, so go for it!
+
+  * only tested with Google Chrome (Canary), should try Firefox, non-dev Chrome, etc.
   * replace the Perl !WebSocket relayer with something easier to package? NodeJS?
     * How about a !WebSocket 'service' in !JavaScript on the Master instance?
+  * will need to track SceneJS versions and updates to Lindsay's 'Tron Tank'.
   * grid texture is a bit so-so, replace it with better image or draw it.
-  * on the slave display "Waiting for MCP..." until the first view packet arrives.
+  * on the slave display "Waiting for MCP link." until the first Master view packet arrives.
   * sky/box around grid field.
   * cast a shadow beneath tank?
   * home key press to return to the middle of the grid.
