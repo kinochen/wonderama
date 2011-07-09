@@ -320,7 +320,6 @@ var rotMat = $M([
 ]);
 
 var thisMesg = ""; var lastMesg = "";
-var oldEye = { x:0, y:0, z:0 };
 
 var ws = new WebSocket("ws://137.154.151.126:3000");
 ws.onopen = function() {
@@ -329,7 +328,7 @@ ws.onopen = function() {
 
 ws.onclose = function() { };
 
-if (!MASTER) { // onle the SLAVES receive
+if (!MASTER) { // only the SLAVES receive websocket messages
 	ws.onmessage = function(e) {
                 var message = new Array();
                 message  = e.data.split(",");
