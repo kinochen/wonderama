@@ -54,13 +54,17 @@ You should run the Master (center) up first, followed by the slaves. After the i
 
 == Future Ideas ==
 
-  * add user-controllable or orbiting camera in addition to the "swing to front" view.
-  * need to find a !SpaceNavigator Javascript control? Perhaps [http://code.google.com/p/javascript-joystick/ javascript-joystick] will do.
+  * grid texture is a bit so-so, replace it with better image or draw it.
+  * sky/box around grid land.
+  * home key press to return to the middle of the grid.
+  * add user-controllable or orbiting camera in addition to the "swing to front" cam.
+  * driving the tank point-of-view cam.
+  * animate tracks on tank model
   * object detection. tank can currently drive through walls.
   * procedural city/block model generator.
-  * ability to fire the canon and blow stuff up!
+  * ability to fire the canon (projectile + recoil) and blow stuff up!
   * other tanks and light cycles.
-  * grid texture is a bit so-so, replace it with better image or draw it.
+  * need to find a !SpaceNavigator Javascript control? Perhaps [http://code.google.com/p/javascript-joystick/ javascript-joystick] will do.
   * sound fx, followed by spatial sound fx
   * multiplayer tanks, network play, etc.
   * 2d overview map, compass, radar, headsup display, map/maze builder
