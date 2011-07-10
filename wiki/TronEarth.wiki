@@ -1,0 +1,24 @@
+#summary Google Earth becomes Tron Earth
+
+= Introduction =
+
+Any middle-age computer nerd still believes there's a tiny Tron World inside their computer... here's how to explore it using Google Earth :)
+
+= Requirements =
+
+squid to block icons
+Layers to enable/disable (road, traffic, borders, clouds)
+Preferences to set
+enable View -> Sun, set time to early morning.
+
+= KML/KMZ = 
+
+darken earth
+
+= Invisible TTF font = 
+
+remove those pesky road names
+
+= Daft Punk SoundTrack = 
+
+Suggest this one... Zero Unit Demolus Exclusive Remix (youtube link)
