@@ -1,5 +1,9 @@
 #summary Google Earth becomes Tron Earth
 
+_documentation work in progress_
+
+(include piccy)
+
 = Introduction =
 
 Any middle-age computer nerd still believes there's a tiny Tron World inside their computer... here's how to explore it using Google Earth :)
@@ -19,6 +23,6 @@ darken earth
 
 remove those pesky road names
 
-= Daft Punk SoundTrack = 
+= Daft Punk Sound Track = 
 
 Suggest this one... Zero Unit Demolus Exclusive Remix (youtube link)
