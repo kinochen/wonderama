@@ -11,7 +11,7 @@ Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lind
 This is a hack to see if !WebSocket/WebGL is viable for achieving view synchronisation on immersive multi-machine visualisation rigs. The test rig is a curved tile-wall based on [http://code.google.com/p/liquid-galaxy/ Google's Liquid Galaxy].
 
 {{{
-Master View ---websocket--> WebSocket Relay ---websocket--> Slave Views
+Master View ---websocket--> WebSocket Relay ---websocket--> { Slave View Left | ... | Slave View Right}
 }}}
 
 These variables are sent from the Master to the Slave instances -
@@ -53,6 +53,7 @@ You should run the Master (center) first, followed by the slaves. After the init
   * ~~slave view offsets aren't right, trying pitching up towards 90 degrees. 3D matrix maths anyone?~~
     * ~~probably something in cameraLookAt() function~~ _Slave needed to get 'up' vector from Master for setting it's !LookAt 'up'_
   * the websocket relay needs more smarts to differentiate master and slave connections and a way to drop connections.
+     * should generate separate events eg. tank:id,x,y,z,yaw eye:x,y,z lookat:x,y,z
   * need to dynamically resize and fullscreen the canvas. CSS?
   * ~~the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.~~ _eye.Y was limited to >20 reduced to 2_
   * code cleanup because of my hack job!
