@@ -8,7 +8,7 @@
 
 Firstly a huge *thankyou* to [http://www.retaggr.com/page/LindsayStanleyKay Lindsay Kay] and [http://www.scenejs.org/ SceneJS] for the Tron Tank demo, and [http://www.greggman.com/ Gregg Tavares] and Rehno for getting the view offset maths working!
 
-This is a hack to see if !WebSocket/WebGL is viable for achieving view synchronisation on immersive multi-machine visualisation rigs. The test rig is a curved tile-wall based on [http://code.google.com/p/liquid-galaxy/ Google's Liquid Galaxy].
+This is a hack to see if !WebSocket/WebGL is viable for achieving view synchronisation on immersive multi-machine visualisation rigs. The test rig is a 5 screen curved tile-wall at the [http://www.uws.edu.au/ University of Western Sydney] based on [http://code.google.com/p/liquid-galaxy/ Google's Liquid Galaxy].
 
 {{{
 Master View ---websocket--> WebSocket Relay ---websocket--> { Slave View Left | ... | Slave View Right}
