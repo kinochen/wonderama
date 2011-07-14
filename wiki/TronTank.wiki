@@ -24,7 +24,7 @@ The middle machine is the _Master_ view, from which we control the tank. View ch
 
 The camera on the _Master_ always !LooksAt tankPos (the is what the original demo does).
 
-The _Slaves_ are arranged in a semi-circle, the slave views should be slightly to the 'left' and 'right' (Y axis rotations, I think) so a new camera view must be calculated on each _Slave_.
+The _Slaves_ are arranged in a semi-circle, their views should be slightly to the 'left' and 'right' (yaw rotations). A a new camera view must be calculated on each _Slave_.
 
 == How to Build ==
 
@@ -54,6 +54,7 @@ You should run the Master (center) first, followed by the slaves. After the init
     * ~~probably something in cameraLookAt() function~~ _Slave needed to get 'up' vector from Master for setting it's !LookAt 'up'_
   * the websocket relay needs more smarts to differentiate master and slave connections and a way to drop connections.
      * should generate separate events eg. tank:id,x,y,z,yaw eye:x,y,z lookat:x,y,z
+     * registering sets of master & slaves instances
   * need to dynamically resize and fullscreen the canvas. CSS?
   * ~~the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.~~ _eye.Y was limited to >20 reduced to 2_
   * code cleanup because of my hack job!
