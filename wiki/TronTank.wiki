@@ -55,7 +55,7 @@ You should run the Master (center) first, followed by the slaves. After the init
   * the websocket relay needs more smarts to differentiate master and slave connections and a way to drop connections.
      * should generate separate events eg. tank:id,x,y,z,yaw eye:x,y,z lookat:x,y,z
      * registering sets of master & slaves instances
-  * need to dynamically resize and fullscreen the canvas. CSS?
+  * ~~need to dynamically resize and fullscreen the canvas. CSS?~~ added CSS HTML body tags
   * ~~the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.~~ _eye.Y was limited to >20 reduced to 2_
   * code cleanup because of my hack job!
   * could probably put a public version of this with websocket service on the interwebs? security?
