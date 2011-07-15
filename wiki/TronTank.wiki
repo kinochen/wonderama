@@ -16,15 +16,17 @@ Master View ---websocket--> WebSocket Relay ---websocket--> { Slave View Left | 
 
 These variables are sent from the Master to the Slave instances -
 
-  * tankYaw (degrees) - rotation of tank wrt to grid plane
-  * tankPos (x,y,z) - position of tank in the world
   * eyePos (x,y,z) - position of camera in the world
+  * tankPos (x,y,z) - position of tank in the world
+  * tankYaw (degrees) - rotation of tank wrt to grid plane
 
 The middle machine is the _Master_ view, from which we control the tank. View changes are synchronised with the _Slave_ views looking slightly to the left and right.
 
 The camera on the _Master_ always !LooksAt tankPos (the is what the original demo does).
 
 The _Slaves_ are arranged in a semi-circle, their views should be slightly to the 'left' and 'right' (yaw rotations). A a new camera view must be calculated on each _Slave_.
+
+<wiki:video height="265" url="http://www.youtube.com/watch?v=uXelTp64Nwc">
 
 == How to Build ==
 
