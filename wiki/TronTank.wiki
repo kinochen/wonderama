@@ -61,6 +61,7 @@ You should run the Master (center) first, followed by the slaves. After the init
   * ~~the camera (eye) doesn't seem to go all the way down to the ground anymore. pitch code may be broken on master.~~ _eye.Y was limited to >20 reduced to 2_
   * code cleanup because of my hack job!
   * could probably put a public version of this with websocket service on the interwebs? security?
+  * just noticed the tank is 180degrees out, I've reversed tankYaw somewhere!
 
 == Future Ideas ==
 
