@@ -1,0 +1,20 @@
+#summary PX Student Project Ideas
+
+= Professional Experience Student Project Ideas =
+
+Spring 2011 semester
+
+  * GE Plugin browser-based version of Liquid Galaxy
+    * HTML
+    * web scripting
+
+  * Google Earth tour up-converter from single machine to Liquid Galaxy
+    * XML parser for GE KML Tours
+    * Language specific for pano rigs
+
+  * Configuration Builder Setup Wizard for Windows?
+    * MSI style configuration builder
+
+  * ViewSync maths/matrix stuff, also ReadEvent
+
+  * ViewSync Master/Slave switching, ViewSync record/play/pause, ViewSync radio stations, ViewSync "walking" & "rocking boat" mode.
