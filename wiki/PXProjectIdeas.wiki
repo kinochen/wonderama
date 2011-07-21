@@ -1,20 +1,34 @@
 #summary PX Student Project Ideas
 
-= Professional Experience Student Project Ideas =
+= Wonderama Professional Experience Project Opportunities =
 
-Spring 2011 semester
+The Wonderama is available for Professional Experience Students (Unit #####) to undertake interesting projects with for the Spring 2011 Semester.
+
+== Suggested Project Ideas ==
 
   * GE Plugin browser-based version of Liquid Galaxy
-    * HTML
-    * web scripting
+    * HTML, !JavaScript/CSS, web server scripting (CGI/PHP).
 
-  * Google Earth tour up-converter from single machine to Liquid Galaxy
+  * Application to up-convert Google Earth Tours to run on Liquid Galaxy
     * XML parser for GE KML Tours
     * Language specific for pano rigs
+    * [http://www.youtube.com/watch?v=O1ypGRoPyj Example of Redwood Tour on LG]
 
   * Configuration Builder Setup Wizard for Windows?
     * MSI style configuration builder
 
-  * ViewSync maths/matrix stuff, also ReadEvent
+  * !ViewSync maths/matrix stuff, also !ReadEvent.
+    * Matrix or 3D maths skills or willingness to learn.
 
-  * ViewSync Master/Slave switching, ViewSync record/play/pause, ViewSync radio stations, ViewSync "walking" & "rocking boat" mode.
+  * !ViewSync Master/Slave switching, !ViewSync record/play/pause, !ViewSync radio stations, !ViewSync "walking" & "rocking boat" mode.
+
+  * Also see [http://code.google.com/p/liquid-galaxy/wiki/IdeasPage Liquid Galaxy Ideas Page]
+
+== How Projects will basically run ==
+
+  * the rig is physically at Kingswood (Y230), however most of these projects can be worked on with 1 or 2 PC's (laptops).
+  * weekly status updates via project wiki page and/or meeting with client (Andrew).
+  * I do not want printed documentation, your code along with wiki-based documentation is all that is expected. Your supervising academic may require additional forms of documentation.
+  * A rough project plan at the end of Week 3. Showing how you expect to use the 14 weeks.
+    * What physical technical resources do you require to complete the project.
+    * Any issues 
