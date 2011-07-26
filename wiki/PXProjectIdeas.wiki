@@ -6,16 +6,18 @@ The Wonderama is available for Professional Experience Students (Unit #####) to 
 
 == Suggested Project Ideas ==
 
-  * GoogleEarth Plugin browser-based version of Liquid Galaxy
+  * Google Earth Plugin browser-based version of Liquid Galaxy
     * HTML, !JavaScript/CSS, web server scripting (CGI/PHP).
-    * Using ViewSync to connect instances
-    * !JavaScript/WebSocket to connect instances
+    * Using !ViewSync to connect instances
+    * !JavaScript/!WebSocket to connect instances
     * Multiple instances on one machine
 
   * Application to up-convert Google Earth Tours to run on Liquid Galaxy
-    * pull aprt the Google Earth tour format
-    * perhaps using an XML parser for KML Tours
+    * pull apart and understand the Google Earth tour format
+    * use an XML parser for KML Tours
     * Language specific for panoramic rigs
+    * export the modified tour in a form that can run on multiple machines
+    * investigate tour timing across multiple instances
     * [http://www.youtube.com/watch?v=O1ypGRoPyj Example of Redwood Tour on LG]
 
   * Configuration Builder Setup Wizard for Windows?
@@ -23,7 +25,7 @@ The Wonderama is available for Professional Experience Students (Unit #####) to 
     * Downloads Google Earth app (if needed)
     * Asks for network configuration information
     * Asks for monitor configuration
-    * Sets up default layers and setttings
+    * Sets up default layers and settings
     * Create icon on desktop
     * ..etc..
 
@@ -37,9 +39,11 @@ The Wonderama is available for Professional Experience Students (Unit #####) to 
 
 == How Projects will basically run ==
 
-  * the rig is physically at Kingswood (Y230), however most of these projects can be worked on with 1 or 2 PC's (laptops).
-  * weekly status updates via project wiki page and/or meeting with client (Andrew).
-  * I do not want printed documentation, your code along with wiki-based documentation is all that is expected. Your supervising academic may require additional forms of documentation.
+  * The rig is physically at Kingswood (Y230), however most of these projects can be easily setup with 1 or 2 PC's (laptops).
+  * Weekly status updates via project wiki page and/or meeting with client (Andrew), can be real meeting or video conference.
+  * I do not want printed documentation, your code along with wiki-based documentation is all that I require. Your supervising academic may require additional forms of documentation.
   * A rough project plan at the end of Week 3. Showing how you expect to use the 14 weeks.
-    * What physical technical resources do you require to complete the project.
-    * Any issues 
+    * describe any technical resources that you require to complete the project.
+    * describe what you hope to achieve
+    * any issues you can currently foresee
+    * identify gaps that you need to work on
