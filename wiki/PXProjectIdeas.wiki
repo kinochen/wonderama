@@ -6,13 +6,19 @@ The Wonderama is available for Professional Experience Students (Unit #####) to 
 
 == Suggested Project Ideas ==
 
-  * Google Earth Plugin browser-based version of Liquid Galaxy
-    * HTML, !JavaScript/CSS, web server scripting (CGI/PHP).
+Suggested project ideas for PX students listed below. Also see [http://code.google.com/p/liquid-galaxy/wiki/IdeasPage Liquid Galaxy Ideas Page] for other possibilities.
+
+===1. Google Earth Plugin based version of Wonderama===
+
+Currently the full Google Earth Client is used to generate a multi-screen Google Earth panorama. This project will investigate the feasibility of using the Google Earth Browser Plugin to simplify the setup of an immersive Google Earth experience.
+
+    * Be comfortable with HTML and !JavaScript/CSS, web server scripting (CGI/PHP).
     * Using !ViewSync to connect instances
     * !JavaScript/!WebSocket to connect instances
     * Multiple instances on one machine
 
-  * Application to up-convert Google Earth Tours to run on Liquid Galaxy
+===2. Application to up-convert Google Earth Tours to run on Liquid Galaxy===
+
     * pull apart and understand the Google Earth tour format
     * use an XML parser for KML Tours
     * Language specific for panoramic rigs
@@ -20,7 +26,8 @@ The Wonderama is available for Professional Experience Students (Unit #####) to 
     * investigate tour timing across multiple instances
     * [http://www.youtube.com/watch?v=O1ypGRoPyj Example of Redwood Tour on LG]
 
-  * Configuration Builder Setup Wizard for Windows?
+===3. Configuration Builder Setup Wizard for Windows?===
+
     * Single click installer
     * Downloads Google Earth app (if needed)
     * Asks for network configuration information
@@ -30,18 +37,19 @@ The Wonderama is available for Professional Experience Students (Unit #####) to 
     * ..etc..
 
 
-  * !ViewSync maths/matrix stuff, also !ReadEvent.
+===4.!ViewSync maths/matrix stuff, also !ReadEvent===
+
     * Matrix or 3D maths skills or willingness to learn.
 
   * !ViewSync Master/Slave switching, !ViewSync record/play/pause, !ViewSync radio stations, !ViewSync "walking" & "rocking boat" mode.
 
-  * Also see [http://code.google.com/p/liquid-galaxy/wiki/IdeasPage Liquid Galaxy Ideas Page]
 
-== How Projects will basically run ==
 
-  * The rig is physically at Kingswood (Y230), however most of these projects can be easily setup with 1 or 2 PC's (laptops).
-  * Weekly status updates via project wiki page and/or meeting with client (Andrew), can be real meeting or video conference.
-  * I do not want printed documentation, your code along with wiki-based documentation is all that I require. Your supervising academic may require additional forms of documentation.
+== Particulars about Wonderama projects at UWS==
+
+  * The rig is physically located at Kingswood campus in room Y230, this lab is avialable only to PX students and is available 7am-9pm (or later) and on weekends. However most of these projects can be easily setup with 1 or 2 PC's (laptops).
+  * Weekly status updates via a project wiki and/or meeting with client (Andrew). The meetings can be face-to-face or video conference.
+  * I do not want printed documentation, your code along with wiki-based documentation is all that I require. However your supervising academic may require additional documentation.
   * A rough project plan at the end of Week 3. Showing how you expect to use the 14 weeks.
     * describe any technical resources that you require to complete the project.
     * describe what you hope to achieve
