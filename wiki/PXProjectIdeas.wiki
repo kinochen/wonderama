@@ -6,16 +6,27 @@ The Wonderama is available for Professional Experience Students (Unit #####) to 
 
 == Suggested Project Ideas ==
 
-  * GE Plugin browser-based version of Liquid Galaxy
+  * GoogleEarth Plugin browser-based version of Liquid Galaxy
     * HTML, !JavaScript/CSS, web server scripting (CGI/PHP).
+    * Using ViewSync to connect instances
+    * !JavaScript/WebSocket to connect instances
+    * Multiple instances on one machine
 
   * Application to up-convert Google Earth Tours to run on Liquid Galaxy
-    * XML parser for GE KML Tours
-    * Language specific for pano rigs
+    * pull aprt the Google Earth tour format
+    * perhaps using an XML parser for KML Tours
+    * Language specific for panoramic rigs
     * [http://www.youtube.com/watch?v=O1ypGRoPyj Example of Redwood Tour on LG]
 
   * Configuration Builder Setup Wizard for Windows?
-    * MSI style configuration builder
+    * Single click installer
+    * Downloads Google Earth app (if needed)
+    * Asks for network configuration information
+    * Asks for monitor configuration
+    * Sets up default layers and setttings
+    * Create icon on desktop
+    * ..etc..
+
 
   * !ViewSync maths/matrix stuff, also !ReadEvent.
     * Matrix or 3D maths skills or willingness to learn.
