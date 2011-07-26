@@ -16,17 +16,21 @@ Suggested project ideas for PX students listed below. Also see [http://code.goog
 
 Currently the full Google Earth Client is used to generate a multi-screen Google Earth panorama. This project will investigate the feasibility of using the Google Earth Browser Plugin to simplify the setup of an immersive Google Earth experience.
 
-    * Be comfortable with HTML and !JavaScript/CSS, web server scripting (CGI/PHP).
-    * Using !ViewSync to connect instances
+  * Be comfortable with HTML and !JavaScript/CSS, web server scripting (CGI/PHP).
+  * Solutions to investigate include
+    * using !ViewSync to connect instances
     * !JavaScript/!WebSocket to connect instances
-    * Multiple instances on one machine
+    * Multiple instances of the plugin on one machine
 
-===2. Application to up-convert Google Earth Tours to run on Liquid Galaxy===
 
-    * pull apart and understand the Google Earth tour format
-    * use an XML parser for KML Tours
-    * Language specific for panoramic rigs
-    * export the modified tour in a form that can run on multiple machines
+===2. Application to convert Google Earth Tours to run on Liquid Galaxy===
+
+There a are a large source of Google Earth Tours available, these are a great resource to use on the immersive visualisation rigs. These tours do run on the Wonderama but they are designed for single screen version of Google Earth. We need a method to 'upconvert' these tours so they can take advantage of the multi-screen Wonderama system.
+
+    * pull apart and understand the Google Earth tour format, uses plain text KML.
+    * use an XML parser or programming language to read the KML Tours
+    * generate specific extensions for panoramic rigs
+    * export the modified tour in a form that can then be run on multiple machines
     * investigate tour timing across multiple instances
     * [http://www.youtube.com/watch?v=O1ypGRoPyj Example of Redwood Tour on LG]
 
@@ -41,7 +45,7 @@ Currently the full Google Earth Client is used to generate a multi-screen Google
     * ..etc..
 
 
-===4.!ViewSync maths/matrix stuff, also !ReadEvent===
+===4. !ViewSync maths/matrix stuff, also !ReadEvent===
 
     * Matrix or 3D maths skills or willingness to learn.
 
