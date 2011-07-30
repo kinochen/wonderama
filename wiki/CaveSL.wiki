@@ -2,4 +2,8 @@
 
 = CaveSL =
 
-Second Life is one the apps we want to run on the Wonderama.
+Second Life is one the apps we run on the Wonderama for Virtual Worlds and gaming units.
+
+Based on work from Calit2.
+
+[insert picture of SL running immersively across 5 screens here]
