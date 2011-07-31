@@ -21,18 +21,20 @@ Currently the full Google Earth Client is used to generate a multi-screen Google
     * using !ViewSync to connect instances
     * !JavaScript/!WebSocket to connect instances
     * Multiple instances of the plugin on one machine
+  * Only requires access to a couple of PC's for development and testing.
 
 
 ===2. Application to convert Google Earth Tours to run on Liquid Galaxy===
 
 There are lots of Google Earth Tours available, these are a great resource to use on the immersive visualisation rigs. These tours do run on the Wonderama but they are designed for single screen version of Google Earth. We need a method to _up convert_ them so they can take advantage of the multi-screen Wonderama system.
 
-    * pull apart and understand the Google Earth tour format, uses plain text KML.
-    * use an XML parser or programming language to read the KML Tours
-    * generate specific extensions for panoramic rigs
-    * export the modified tour in a form that can then be run on multiple machines
-    * investigate tour timing across multiple instances
-    * [http://www.youtube.com/watch?v=O1ypGRoPyj Example of Redwood Tour on LG]
+  * pull apart and understand the Google Earth tour format, uses plain text KML.
+  * use an XML parser or programming language to read the KML Tours
+  * generate specific extensions for panoramic rigs
+  * export the modified tour in a form that can then be run on multiple machines
+  * investigate tour timing across multiple instances
+  * [http://www.youtube.com/watch?v=O1ypGRoPyj Example of Redwood Tour on LG]
+  * Only requires Wonderama access for testing of immersive tours (towards end of project). Most of the work can be done on a standalone PC.   
 
 
 ===3. Configuration Builder and/or Setup Wizard===
@@ -45,7 +47,7 @@ Simple installer for app for setting up Google Earth on multiple machines. Windo
   * Asks for monitor angle configuration
   * Sets up default Google Earth layers and other settings
   * Create icon on desktop
-  * ..etc..
+  * Doesn't require access to the rig till end end (for install testing). A couple of PC's to setup Google Earth on would do for most of the project.
 
 
 ===4. Racing Car wheel controller for Google Earth !StreetView===
@@ -56,6 +58,7 @@ We have a Logitech gaming wheel (USB) we'd like to use a controller for the rig 
   * how to map wheel to road directions?
   * incorporate feedback when "off road"
   * we have examples of other controllers being used with Google Earth eg. Android and Kinect.
+  * doesn't require access to the Wonderama (except for testing towards the end). A single PC with Google Earth and the appropriate controller device would be enough. Two PC's would be better.
 
 
 == Particulars about Wonderama projects at UWS==
