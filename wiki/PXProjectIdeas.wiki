@@ -14,7 +14,7 @@ Suggested project ideas for PX students listed below. Also see [http://code.goog
 
 ===1. Google Earth Plugin based version of Wonderama===
 
-Currently the full Google Earth Client is used to generate a multi-screen Google Earth panorama. This project will investigate the feasibility of using the Google Earth Browser Plugin to simplify the setup of an immersive Google Earth experience.
+Currently the full Google Earth Client is used to generate a multi-screen Google Earth panorama. This project will investigate the feasibility of using the Google Earth Web Browser Plugin to simplify the setup of an immersive Google Earth experience.
 
   * Be comfortable with HTML and !JavaScript/CSS, web server scripting (CGI/PHP).
   * Solutions to investigate include
@@ -25,7 +25,7 @@ Currently the full Google Earth Client is used to generate a multi-screen Google
 
 ===2. Application to convert Google Earth Tours to run on Liquid Galaxy===
 
-There a are a large source of Google Earth Tours available, these are a great resource to use on the immersive visualisation rigs. These tours do run on the Wonderama but they are designed for single screen version of Google Earth. We need a method to 'upconvert' these tours so they can take advantage of the multi-screen Wonderama system.
+There are lots of Google Earth Tours available, these are a great resource to use on the immersive visualisation rigs. These tours do run on the Wonderama but they are designed for single screen version of Google Earth. We need a method to _up convert_ them so they can take advantage of the multi-screen Wonderama system.
 
     * pull apart and understand the Google Earth tour format, uses plain text KML.
     * use an XML parser or programming language to read the KML Tours
@@ -34,23 +34,28 @@ There a are a large source of Google Earth Tours available, these are a great re
     * investigate tour timing across multiple instances
     * [http://www.youtube.com/watch?v=O1ypGRoPyj Example of Redwood Tour on LG]
 
-===3. Configuration Builder Setup Wizard for Windows?===
 
-    * Single click installer
-    * Downloads Google Earth app (if needed)
-    * Asks for network configuration information
-    * Asks for monitor configuration
-    * Sets up default layers and settings
-    * Create icon on desktop
-    * ..etc..
+===3. Configuration Builder and/or Setup Wizard===
+
+Simple installer for app for setting up Google Earth on multiple machines. Windows at least, but Mac and Linux would be nice.
+
+  * Single click installer
+  * Downloads Google Earth app (if needed)
+  * Asks for network configuration information
+  * Asks for monitor angle configuration
+  * Sets up default layers and settings
+  * Create icon on desktop
+  * ..etc..
 
 
-===4. !ViewSync maths/matrix stuff, also !ReadEvent===
+===4. Racing Car wheel controller for Google Earth StreetView===
 
-    * Matrix or 3D maths skills or willingness to learn.
+We have a Logitech racing car wheel (USB) we'd like to use a controller for the rig when it is in Street View mode. Basically so we can pretend to drive around foreign countries! Part of the project might be to setup other controllers which are already known to work (Android and Kinect).
 
-  * !ViewSync Master/Slave switching, !ViewSync record/play/pause, !ViewSync radio stations, !ViewSync "walking" & "rocking boat" mode.
-
+  * controlling GoogleEarth from USB input, could be like Joystick, not sure?
+  * how to map wheel to road directions?
+  * incorporate feedback when "off road"
+  * we have examples of other controllers being used with Google Earth eg. Android and Kinect.
 
 
 == Particulars about Wonderama projects at UWS==
