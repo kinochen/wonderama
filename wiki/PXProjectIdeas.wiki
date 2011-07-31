@@ -6,11 +6,11 @@ The Wonderama is available for Professional Experience Students (Unit 300579) to
 
 ==General Background==
 
-The Wonderama is a virtual reality display system based on the [http://code.google.com/p/liquid-galaxy/ Google Liquid Galaxy]. The system comprises a cluster of networked PC's and screens arranged in a curve. Applications running on the PC's use a variety of techniques to give the sensation of a single panoramic immersive view. The rig is installed with both Windows and a Linux environment. The 'killer app' is Google Earth running as an immersive panorama.
+The Wonderama is a virtual reality display system based on the [http://code.google.com/p/liquid-galaxy/ Google's Liquid Galaxy]. The system comprises a cluster of networked PC's with the screens arranged in a curve. Applications running on the PC's use a variety of techniques to give the sensation of a single panoramic immersive view. The rig is installed with both Windows and a Linux operating environment. The 'killer app' is Google Earth running as an immersive panorama.
 
 ==Suggested Project Ideas==
 
-Suggested project ideas for PX students listed below. Also see [http://code.google.com/p/liquid-galaxy/wiki/IdeasPage Liquid Galaxy Ideas Page] for other possibilities.
+Suggested project ideas for PX students listed below. Also see [http://code.google.com/p/liquid-galaxy/wiki/IdeasPage Liquid Galaxy Ideas Page] for additional possibilities.
 
 ===1. Google Earth Plugin based version of Wonderama===
 
@@ -37,22 +37,22 @@ There are lots of Google Earth Tours available, these are a great resource to us
 
 ===3. Configuration Builder and/or Setup Wizard===
 
-Simple installer for app for setting up Google Earth on multiple machines. Windows at least, but Mac and Linux would be nice.
+Simple installer for app for setting up Google Earth on multiple machines. Windows O/S at a minimum, but Mac and Linux would also be nice.
 
   * Single click installer
   * Downloads Google Earth app (if needed)
   * Asks for network configuration information
   * Asks for monitor angle configuration
-  * Sets up default layers and settings
+  * Sets up default Google Earth layers and other settings
   * Create icon on desktop
   * ..etc..
 
 
-===4. Racing Car wheel controller for Google Earth StreetView===
+===4. Racing Car wheel controller for Google Earth !StreetView===
 
-We have a Logitech racing car wheel (USB) we'd like to use a controller for the rig when it is in Street View mode. Basically so we can pretend to drive around foreign countries! Part of the project might be to setup other controllers which are already known to work (Android and Kinect).
+We have a Logitech gaming wheel (USB) we'd like to use a controller for the rig when it is in Street View mode. Basically so we can pretend to drive around foreign countries! Part of the project might be to setup other controllers which are already known to work (Android and Kinect).
 
-  * controlling GoogleEarth from USB input, could be like Joystick, not sure?
+  * controlling Google Earth from USB input, could be like Joystick, not sure?
   * how to map wheel to road directions?
   * incorporate feedback when "off road"
   * we have examples of other controllers being used with Google Earth eg. Android and Kinect.
@@ -60,7 +60,7 @@ We have a Logitech racing car wheel (USB) we'd like to use a controller for the 
 
 == Particulars about Wonderama projects at UWS==
 
-  * The rig is physically located at Kingswood campus in room Y230, this lab is avialable only to PX students and is available 7am-9pm (or later) and on weekends. However most of these projects can be easily setup with 1 or 2 PC's (laptops).
+  * The rig is physically located at Kingswood campus in room Y230, this lab is available only to PX students and is available 7am-9pm (or later) and on weekends. However most of these projects can be easily setup with 1 or 2 PC's (laptops).
   * Weekly status updates via a project wiki and/or meeting with client (Andrew). The meetings can be face-to-face or video conference.
   * I do not want printed documentation, your code along with wiki-based documentation is all that I require. However your supervising academic may require additional documentation.
   * A rough project plan at the end of Week 3. Showing how you expect to use the 14 weeks.
