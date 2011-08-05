@@ -2,13 +2,13 @@
 
 =Wonderama Professional Experience Project Opportunities=
 
-The Wonderama is available for Professional Experience Students (Unit 300579) to undertake interesting projects with for the Spring 2011 Semester.
+The Wonderama is available for Professional Experience Students (Unit 300579) to undertake interesting projects on.
 
 ==General Background==
 
-The Wonderama is a virtual reality display system based on the [http://code.google.com/p/liquid-galaxy/ Google's Liquid Galaxy]. The system comprises a cluster of networked PC's with the screens arranged in a curve. Applications running on the PC's use a variety of techniques to give the sensation of a single panoramic immersive view. The rig is installed with both Windows and a Linux operating environment. The 'killer app' is Google Earth running as an immersive panorama.
+The Wonderama is a virtual reality display system based on the [http://code.google.com/p/liquid-galaxy/ Google's Liquid Galaxy]. The system comprises a cluster of networked PC's with the screens arranged in a curve. Applications running on the PC's use a variety of techniques to give the sensation of a single panoramic view. The rig is installed with both Windows and a Linux operating environment. The 'killer app' is Google Earth running as a wrap-around immersive panorama.
 
-==Suggested Project Ideas==
+==Spring 2011 PX Project Ideas==
 
 Suggested project ideas for PX students listed below. Also see [http://code.google.com/p/liquid-galaxy/wiki/IdeasPage Liquid Galaxy Ideas Page] for additional possibilities.
 
