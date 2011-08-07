@@ -59,9 +59,9 @@ We have a Logitech gaming wheel we'd like to use a controller for the rig when i
   * we have examples of other controllers being used with Google Earth eg. Android and Kinect.
   * doesn't require access to the Wonderama (except for testing towards the end). A single PC with Google Earth and the appropriate controller device would be enough. Two PC's would be better.
 
-===5. Additional just-throwing-into-the-mix ideas===
+===5. Additional into-the-mix ideas===
 
-  * UWS OpenDay Sunday 29 Sept - Kinect controller setup for GE
+  * UWS Open Day Sunday 29 August - Kinect controller setup for GE
   * Wonderama website/wiki build - Confluence.
   * Wonderama machine build and deploy process, dual-boot maintenance.
   * Google Earth usability and UWS data sources.
