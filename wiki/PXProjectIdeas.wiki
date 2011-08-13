@@ -57,6 +57,7 @@ We have a Logitech Momo force feedback gaming wheel we'd like to use a controlle
   * the wheel uses basically two axis - rotate around y axis (turn left or right) and go forward!
   * possibly incorporate feedback when "off road"
   * we have examples of other controllers being used with Google Earth eg. Android and Kinect. This might be like a simply joystick though.
+  * [http://www.youtube.com/watch?v=f5Pr-n-xumA Example of StreetView on Wonderama]
   * doesn't require access to the Wonderama (except for testing towards the end). A single PC with Google Earth and the appropriate controller device would be enough. Two PC's would be better.
 
 ===5. Additional into-the-mix ideas===
