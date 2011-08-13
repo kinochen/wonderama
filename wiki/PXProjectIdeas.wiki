@@ -33,7 +33,7 @@ There are lots of Google Earth Tours available, these are a great resource to us
   * generate extensions to the tours suitable for panoramic rigs
   * export the modified tour in a form that can then be played on multiple machines
   * investigate tour timing across multiple instances, discuss with Adam at End Point
-  * [http://www.youtube.com/watch?v=O1ypGRoPyj Example of Redwood Tour on LG]
+  * [http://www.youtube.com/watch?v=O1ypGRoPyj8 Example of Redwood Tour on LG]
   * Only requires Wonderama access for testing of immersive tours (towards end of project). Most of the work can be done on a standalone PC.   
 
 ===3. Configuration Builder and/or Setup Wizard===
