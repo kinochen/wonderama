@@ -14,15 +14,15 @@ Suggested project ideas for PX students listed below. Also see [http://code.goog
 
 ===1. Google Earth Plugin based version of Wonderama===
 
-Currently the full Google Earth Client is used to generate a multi-screen Google Earth panorama. This project will investigate the feasibility of using the Google Earth Web Browser Plugin to simplify the setup of an immersive Google Earth experience.
+Currently the full Google Earth Client is used to generate a multi-screen Google Earth panorama. This project will investigate the feasibility of using the Google Earth Web Browser Plugin to simplify the setup of an immersive Google Earth experience. Additionally there are a heap of plugin-based apps that would be great to get running on the Wonderama. eg. [http://www.planetinaction.com/ Planet In Action games]
 
   * Be comfortable with HTML and !JavaScript/CSS, web server scripting (CGI/PHP).
   * Solutions to investigate include
     * using !ViewSync to connect instances
-    * !JavaScript/!WebSocket to connect instances
-    * Multiple instances of the plugin on one machine
+    * !JavaScript/!WebSocket code to connect instances
+    * Multiple instances of the plugin on one machine?
+  * Perhaps try some setups with a mix of full GE client and plugin?
   * Only requires access to a couple of PC's for development and testing.
-
 
 ===2. Application to convert Google Earth Tours to run on Liquid Galaxy===
 
@@ -38,7 +38,7 @@ There are lots of Google Earth Tours available, these are a great resource to us
 
 ===3. Configuration Builder and/or Setup Wizard===
 
-Simple installer for app for setting up Google Earth on multiple machines. Windows O/S at a minimum, but Mac and Linux would also be nice.
+Create a simple installer for app for setting up Liquid Galaxy on multiple machines. Windows O/S at a minimum, but Mac and Linux would also be nice.
 
   * Single click installer
   * Downloads Google Earth app (if needed)
@@ -48,15 +48,15 @@ Simple installer for app for setting up Google Earth on multiple machines. Windo
   * Create icon on desktop
   * Doesn't require access to the rig till end end (for install testing). A couple of PC's to setup Google Earth on would do for most of the project.
 
-
 ===4. Racing Car wheel controller for Google Earth !StreetView===
 
-We have a Logitech gaming wheel we'd like to use a controller for the rig when it is in Street View mode. Basically so we can use Google Earth as a very lame car racing game! Part of the project might be to setup other controllers which are already known to work (Android and Kinect).
+We have a Logitech Momo force feedback gaming wheel we'd like to use a controller for the rig when it is in Street View mode. Basically so we can use Google Earth as a very lame car racing game! Part of the project might be to setup other controllers which are already known to work (Android and Kinect?).
 
   * controlling Google Earth from USB input, could be like Joystick, not sure?
   * how to map wheel to road directions?
-  * incorporate feedback when "off road"
-  * we have examples of other controllers being used with Google Earth eg. Android and Kinect.
+  * the wheel uses basically two axis - rotate around y axis (turn left or right) and go forward!
+  * possibly incorporate feedback when "off road"
+  * we have examples of other controllers being used with Google Earth eg. Android and Kinect. This might be like a simply joystick though.
   * doesn't require access to the Wonderama (except for testing towards the end). A single PC with Google Earth and the appropriate controller device would be enough. Two PC's would be better.
 
 ===5. Additional into-the-mix ideas===
