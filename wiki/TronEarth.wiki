@@ -23,7 +23,10 @@ Layers. Turn off everything. And try with these on...
   * More -> Transportation
   * More -> Traffic
 
-Also enable View -> Sun and slide the time to early morning or late afternoon.
+Also try "View -> Sun" and slide the time to early morning or late afternoon.
+
+If you still have enough rendering grunt try "Weather -> Clouds"
+
 
 = Additional things you can do.. ==
 
@@ -31,8 +34,8 @@ A proxy server which is redirecting Google Earth icons to an empty/transparent i
 
 = Invisible TTF font = 
 
-remove those pesky road names. Search for invisible.ttf
+Remove those pesky road names. Search for invisible.ttf and install.
 
-= Daft Punk Sound Track = 
+= Sound Track? = 
 
 I suggest Daft Punk's "Zero Unit Demolus Remix".
