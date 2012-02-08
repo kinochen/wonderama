@@ -8,21 +8,31 @@ _documentation work in progress_
 
 Any middle-age computer nerd still believes there's a tiny Tron World inside their computer... here's how to explore it using Google Earth :)
 
-= Requirements =
-
-squid to block icons
-Layers to enable/disable (road, traffic, borders, clouds)
-Preferences to set
-enable View -> Sun, set time to early morning.
-
 = KML/KMZ = 
 
-darken earth
+[http://wonderama.googlecode.com/files/Tron%20Earth.kmz Tron Earth.kmz]
+
+Darkened Earth and TRON logo (can be turned off). The image later is a deep dark blue, which I think works better than completely black.
+
+= Google Earth Layers =
+
+Layers. Turn off everything. And try with these on...
+
+  * Borders -> Borders (don't need Labels)
+  * Roads
+  * More -> Transportation
+  * More -> Traffic
+
+Also enable View -> Sun and slide the time to early morning or late afternoon.
+
+= Additional things you can do.. ==
+
+A proxy server which is redirecting Google Earth icons to an empty/transparent image.
 
 = Invisible TTF font = 
 
-remove those pesky road names
+remove those pesky road names. Search for invisible.ttf
 
 = Daft Punk Sound Track = 
 
-Suggest this one... Zero Unit Demolus Exclusive Remix (youtube link)
+I suggest Daft Punk's "Zero Unit Demolus Remix".
