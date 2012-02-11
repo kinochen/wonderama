@@ -16,7 +16,7 @@ Darkened Earth and TRON logo (can be turned off). The image later is a deep dark
 
 = Google Earth Layers =
 
-Layers. Turn off everything. And try with these on...
+Turn off everything, and try with these on...
 
   * Borders -> Borders (don't need Labels)
   * Roads
@@ -30,11 +30,11 @@ If you still have enough rendering grunt try "Weather -> Clouds"
 
 = Additional things you can do.. ==
 
-A proxy server which is redirecting Google Earth icons to an empty/transparent image.
+A proxy server which is redirecting some of the Google Earth icons to an empty/transparent image.
 
 = Invisible TTF font = 
 
-Remove those pesky road names. Search for invisible.ttf and install.
+Remove those pesky road names. Search for invisible.ttf and install. Choose it as your default 3D Font in Tools -> Options.
 
 = Sound Track? = 
 
