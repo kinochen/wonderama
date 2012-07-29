@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>GE Surfing with Kinect and HTML5</title>
+<script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAv2qC-G4Rrqzj4hnAF64rNRT_ImPw2cwuh07oOpiQ25mnD91EFxTRmOwnQa77QZMlW_s1EI1ynTZpzw"> </script>   
+<script type="text/javascript" src="math3d.js"></script>
+<script type="text/javascript" src="Queue.js"></script>
+<script type="text/javascript" src="kinect.js"></script>
+<script type="text/javascript">
+
+  (function() {
+
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+
+    po.src = 'https://apis.google.com/js/plusone.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+
+  })();
+  
+
+</script>
+</head>
+<body scroll="no" topmargin="0px" leftmargin="0px">
+<div id="map3d" style="height: 1920px; width: 1080px;"></div>
+<!--<div id="map3d" style="height: 500px; width: 500px;"></div> -->
+Status: <label id="status">None</label><br>
+Debug: <label id="lbldebug">None</label><br>
+<input id="btnClose" type="button" value="Close Connection" onclick="closeSocket()"/>
+</body>
+</html>
