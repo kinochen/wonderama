@@ -3,3 +3,5 @@
 = Microsoft Kinect Surfer Controller for Google Earth =
 
 July 29 2012 Source is now uploaded
+
+[http://code.google.com/p/wonderama/source/browse/#svn%2Ftrunk%2Fkinect-surfer Source is in /trunk/kinect-surfer]
