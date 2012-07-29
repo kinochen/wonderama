@@ -1,0 +1,5 @@
+#summary Kinect Surfer control for Earth API.
+
+= Microsoft Kinect Surfer Controller for Google Earth =
+
+July 29 2012 Source is now uploaded
