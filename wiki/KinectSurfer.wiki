@@ -5,3 +5,15 @@
 July 29 2012 Source is now uploaded
 
 [http://code.google.com/p/wonderama/source/browse/#svn%2Ftrunk%2Fkinect-surfer Source is in /trunk/kinect-surfer]
+
+The meat is in kinect.js called from Surfer.html
+
+A Windows PC with the Microsoft Kinect SDK installed and a Kinect attached, runs the KinectServer.exe located in the KinectServer folder. This generates the WebSocket stream for the client app to use.
+
+Surfer.html receives the websocket stream for controlling the Earth camera. Surfer takes a couple of URL arguments to set the starting mode and screen rotation. (yet to be documented).
+
+tablet.html is for our control tablet.
+
+/console/console.html is an app run on a Linux host providing feedback to the surfer. Includes - groundspeed & altitude; a real-time 2d representation of the users skeleton as seen by the Kinect; google map showing location & heading of the surfer; bandwidth charts for the Internet and internal LAN data usage (confirms benefit of caching!); dump of the websocket stream.
+
+Supporting /images/ and DAE /models/ are in the appropriate folders.
