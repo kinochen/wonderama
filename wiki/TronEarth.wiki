@@ -2,7 +2,7 @@
 
 _documentation work in progress_
 
-(include piccy)
+[http://wonderama.googlecode.com/files/tronsnap.png http://wonderama.googlecode.com/files/tronsnap.png]
 
 = Introduction =
 
