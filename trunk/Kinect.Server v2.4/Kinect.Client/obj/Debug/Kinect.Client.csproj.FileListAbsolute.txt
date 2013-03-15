@@ -1,0 +1,25 @@
+C:\Users\v-vapter\My Projects\Microsoft\ENGAGE\KinectHtml5\Kinect.Client\bin\Kinect.Client.dll
+C:\Users\v-vapter\My Projects\Microsoft\ENGAGE\KinectHtml5\Kinect.Client\bin\Kinect.Client.pdb
+C:\Users\v-vapter\My Projects\Microsoft\ENGAGE\KinectHtml5\Kinect.Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\v-vapter\My Projects\Microsoft\ENGAGE\KinectHtml5\Kinect.Client\obj\Debug\Kinect.Client.dll
+C:\Users\v-vapter\My Projects\Microsoft\ENGAGE\KinectHtml5\Kinect.Client\obj\Debug\Kinect.Client.pdb
+C:\Users\v-vapter\My Projects\KinectHtml5\Kinect.Client\bin\Kinect.Client.dll
+C:\Users\v-vapter\My Projects\KinectHtml5\Kinect.Client\bin\Kinect.Client.pdb
+C:\Users\v-vapter\My Projects\KinectHtml5\Kinect.Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\v-vapter\My Projects\KinectHtml5\Kinect.Client\obj\Debug\Kinect.Client.dll
+C:\Users\v-vapter\My Projects\KinectHtml5\Kinect.Client\obj\Debug\Kinect.Client.pdb
+C:\Users\Administrator\Desktop\KinectHtml5\Kinect.Client\bin\Kinect.Client.dll
+C:\Users\Administrator\Desktop\KinectHtml5\Kinect.Client\bin\Kinect.Client.pdb
+C:\Users\Administrator\Desktop\KinectHtml5\Kinect.Client\obj\Debug\Kinect.Client.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\KinectHtml5\Kinect.Client\obj\Debug\Kinect.Client.dll
+C:\Users\Administrator\Desktop\KinectHtml5\Kinect.Client\obj\Debug\Kinect.Client.pdb
+E:\KinectHtml5 v2\Kinect.Client\bin\Kinect.Client.dll
+E:\KinectHtml5 v2\Kinect.Client\bin\Kinect.Client.pdb
+E:\KinectHtml5 v2\Kinect.Client\obj\Debug\Kinect.Client.csprojResolveAssemblyReference.cache
+E:\KinectHtml5 v2\Kinect.Client\obj\Debug\Kinect.Client.dll
+E:\KinectHtml5 v2\Kinect.Client\obj\Debug\Kinect.Client.pdb
+C:\Users\Fuji\Desktop\KinectHtml5 v2 - 20120520\Kinect.Client\bin\Kinect.Client.dll
+C:\Users\Fuji\Desktop\KinectHtml5 v2 - 20120520\Kinect.Client\bin\Kinect.Client.pdb
+C:\Users\Fuji\Desktop\KinectHtml5 v2 - 20120520\Kinect.Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fuji\Desktop\KinectHtml5 v2 - 20120520\Kinect.Client\obj\Debug\Kinect.Client.dll
+C:\Users\Fuji\Desktop\KinectHtml5 v2 - 20120520\Kinect.Client\obj\Debug\Kinect.Client.pdb

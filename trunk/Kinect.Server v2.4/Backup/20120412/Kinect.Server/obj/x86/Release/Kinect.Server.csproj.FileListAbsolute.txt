@@ -1,0 +1,10 @@
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\bin\Release\Kinect.Server.exe.manifest
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\bin\Release\Kinect.Server.application
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\bin\Release\Kinect.Server.exe
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\bin\Release\Kinect.Server.pdb
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\bin\Release\Fleck.dll
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\obj\x86\Release\Kinect.Server.exe.manifest
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\obj\x86\Release\Kinect.Server.application
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\obj\x86\Release\Kinect.Server.exe
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\obj\x86\Release\Kinect.Server.pdb
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\obj\x86\Release\Kinect.Server.csprojResolveAssemblyReference.cache
