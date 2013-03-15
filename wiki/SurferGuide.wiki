@@ -66,7 +66,7 @@ You need to run the server first, and then open the surfer in the browser.
 To start the server, open the *Kinect.Server v2.4* folder *>* Kinect.Server folder *>* bin folder *>* Release folder.
 Then run the *Kinect.Server* application and the server will start:
 
-[https://dl.dropbox.com/u/39047918/image010.jpg]
+[https://wonderama.googlecode.com/files/image010.jpg]
 
 (You must connect and power the Kinect camera before you start the server or it will crash!)
 
