@@ -94,7 +94,7 @@ The user’s head, feet and hands should all be within the blue “dot man” ca
 
 The surfing stance is a stance that is “side on” to the Kinect camera with your head facing the display. The image below shows the surfing stance; the user’s right hand (green) is pointing towards the display (the image is from the Kinect camera’s perspective).
 
-[https://dl.dropbox.com/u/39047918/image012.gif]
+[https://wonderama.googlecode.com/files/image012.gif]
 
 The recommended stance is one with your right foot forward. You can surf with your left foot forward and with your back to the Kinect but it is not as responsive.
 
