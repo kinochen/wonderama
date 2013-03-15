@@ -102,7 +102,7 @@ The recommended stance is one with your right foot forward. You can surf with yo
 
 The Surfer controls the camera in Google Earth in three ways; pitch, roll and yaw. It basically turns your body into a large joystick and uses your joints to dictate the pitch, roll, yaw and acceleration. The image below shows the pitch, roll and yaw of a space shuttle, when surfing your shoulders and arms represent the length of the shuttle.
 
-[https://dl.dropbox.com/u/39047918/image013.gif]
+[https://wonderama.googlecode.com/files/image013.gif]
 
 The shoulders turning left or right control the yaw, the angle of the shoulders moving up or down control the pitch and the body leaning forward or backwards, controls the roll.
 
