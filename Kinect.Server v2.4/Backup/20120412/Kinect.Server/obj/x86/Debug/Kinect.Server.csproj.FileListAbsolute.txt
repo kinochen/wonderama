@@ -1,0 +1,38 @@
+C:\Users\v-vapter\My Projects\Microsoft\ENGAGE\KinectHtml5\Kinect.Server\bin\Debug\Kinect.Server.exe
+C:\Users\v-vapter\My Projects\Microsoft\ENGAGE\KinectHtml5\Kinect.Server\bin\Debug\Kinect.Server.pdb
+C:\Users\v-vapter\My Projects\Microsoft\ENGAGE\KinectHtml5\Kinect.Server\bin\Debug\Fleck.dll
+C:\Users\v-vapter\My Projects\Microsoft\ENGAGE\KinectHtml5\Kinect.Server\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\v-vapter\My Projects\Microsoft\ENGAGE\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.exe
+C:\Users\v-vapter\My Projects\Microsoft\ENGAGE\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.pdb
+C:\Users\v-vapter\My Projects\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.exe
+C:\Users\v-vapter\My Projects\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.pdb
+C:\Users\v-vapter\My Projects\KinectHtml5\Kinect.Server\bin\Debug\Kinect.Server.exe
+C:\Users\v-vapter\My Projects\KinectHtml5\Kinect.Server\bin\Debug\Kinect.Server.pdb
+C:\Users\v-vapter\My Projects\KinectHtml5\Kinect.Server\bin\Debug\Fleck.dll
+C:\Users\v-vapter\My Projects\KinectHtml5\Kinect.Server\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.exe
+C:\Users\Administrator\Desktop\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.pdb
+C:\Users\Administrator\Desktop\KinectHtml5\Kinect.Server\bin\Debug\Kinect.Server.exe
+C:\Users\Administrator\Desktop\KinectHtml5\Kinect.Server\bin\Debug\Kinect.Server.pdb
+C:\Users\Administrator\Desktop\KinectHtml5\Kinect.Server\bin\Debug\Fleck.dll
+C:\Users\Administrator\Desktop\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.csprojResolveAssemblyReference.cache
+E:\KinectHtml5 v2\Kinect.Server\obj\x86\Debug\Kinect.Server.exe
+E:\KinectHtml5 v2\Kinect.Server\obj\x86\Debug\Kinect.Server.pdb
+E:\KinectHtml5 v2\Kinect.Server\bin\Debug\Kinect.Server.exe
+E:\KinectHtml5 v2\Kinect.Server\bin\Debug\Kinect.Server.pdb
+E:\KinectHtml5 v2\Kinect.Server\bin\Debug\Fleck.dll
+E:\KinectHtml5 v2\Kinect.Server\obj\x86\Debug\Kinect.Server.csprojResolveAssemblyReference.cache
+E:\KinectHtml5 v2\Kinect.Server\bin\Debug\Kinect.Server.exe.manifest
+E:\KinectHtml5 v2\Kinect.Server\bin\Debug\Kinect.Server.application
+E:\KinectHtml5 v2\Kinect.Server\obj\x86\Debug\Kinect.Server.exe.manifest
+E:\KinectHtml5 v2\Kinect.Server\obj\x86\Debug\Kinect.Server.application
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\obj\x86\Debug\Kinect.Server.exe
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\obj\x86\Debug\Kinect.Server.pdb
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\obj\x86\Debug\Kinect.Server.csprojResolveAssemblyReference.cache
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\bin\Debug\Kinect.Server.exe.manifest
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\bin\Debug\Kinect.Server.application
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\bin\Debug\Kinect.Server.exe
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\bin\Debug\Kinect.Server.pdb
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\bin\Debug\Fleck.dll
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\obj\x86\Debug\Kinect.Server.exe.manifest
+C:\Users\wonderama\Desktop\KinectHtml5 v2\Kinect.Server\obj\x86\Debug\Kinect.Server.application

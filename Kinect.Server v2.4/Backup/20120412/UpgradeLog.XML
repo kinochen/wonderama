@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="KinectHtml5">
+</Property><Property Name="Solution File" Value="C:\Users\Administrator\Desktop\KinectHtml5\KinectHtml5.sln">
+</Property><Property Name="Date" Value="Thursday, 9 February 2012">
+</Property><Property Name="Time" Value="15:29 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="KinectHtml5.sln" Description="File successfully backed up as C:\Users\Administrator\Desktop\KinectHtml5\Backup\KinectHtml5.sln">
+</Event><Event ErrorLevel="0" Project="Kinect.Client" Source="Kinect.Client\Kinect.Client.csproj" Description="Project file successfully backed up as C:\Users\Administrator\Desktop\KinectHtml5\Backup\Kinect.Client\Kinect.Client.csproj">
+</Event><Event ErrorLevel="0" Project="Kinect.Client" Source="Kinect.Client\Kinect.Client.csproj.user" Description="Project user file successfully backed up as C:\Users\Administrator\Desktop\KinectHtml5\Backup\Kinect.Client\Kinect.Client.csproj.user">
+</Event><Event ErrorLevel="0" Project="Kinect.Client" Source="Kinect.Client\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Administrator\Desktop\KinectHtml5\Backup\Kinect.Client\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Kinect.Client" Source="Kinect.Client\index.html" Description="File successfully backed up as C:\Users\Administrator\Desktop\KinectHtml5\Backup\Kinect.Client\index.html">
+</Event><Event ErrorLevel="0" Project="Kinect.Client" Source="Kinect.Client\style.css" Description="File successfully backed up as C:\Users\Administrator\Desktop\KinectHtml5\Backup\Kinect.Client\style.css">
+</Event><Event ErrorLevel="0" Project="Kinect.Client" Source="Kinect.Client\web-sockets.js" Description="File successfully backed up as C:\Users\Administrator\Desktop\KinectHtml5\Backup\Kinect.Client\web-sockets.js">
+</Event><Event ErrorLevel="0" Project="Kinect.Client" Source="Kinect.Client\Web.config" Description="File successfully backed up as C:\Users\Administrator\Desktop\KinectHtml5\Backup\Kinect.Client\Web.config">
+</Event><Event ErrorLevel="0" Project="Kinect.Client" Source="Kinect.Client\Web.Debug.config" Description="File successfully backed up as C:\Users\Administrator\Desktop\KinectHtml5\Backup\Kinect.Client\Web.Debug.config">
+</Event><Event ErrorLevel="0" Project="Kinect.Client" Source="Kinect.Client\Web.Release.config" Description="File successfully backed up as C:\Users\Administrator\Desktop\KinectHtml5\Backup\Kinect.Client\Web.Release.config">
+</Event><Event ErrorLevel="0" Project="Kinect.Client" Source="Kinect.Client\Kinect.Client.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Kinect.Client" Source="Kinect.Client\Kinect.Client.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="KinectHtml5.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="KinectHtml5.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Kinect.Client" Source="Kinect.Client\Kinect.Client.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
