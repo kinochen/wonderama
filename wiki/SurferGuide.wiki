@@ -24,7 +24,7 @@ The Kinect camera needs to be positioned at a 90 degree angle on the left side o
 The user should be roughly about one metre away from the display and about a metre away from the Kinect camera on the left. Adjustments can be made after software setup.
 
 
-[https://dl.dropbox.com/u/39047918/Kinect%20Setup.jpg]
+[https://wonderama.googlecode.com/files/image001.gif]
 
 ----
 
