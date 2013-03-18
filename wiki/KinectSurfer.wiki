@@ -2,6 +2,8 @@
 
 =Microsoft Kinect Surfer Controller for Google Earth=
 
+<wiki:video height="265" url="http://www.youtube.com/watch?v=ULp6VaFtwz4">
+
 Version 2.0 has been uploaded!
 See the SurferGuide for detailed installation and user guide.
 
