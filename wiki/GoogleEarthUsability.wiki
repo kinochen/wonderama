@@ -16,4 +16,4 @@ Loading and exploring KML
 
 * Input Director* keyboard/mouse sharing and broadcast (Windows, shareware)
 
-* AutoSizer* Control window placement and size on Windows (Windows, freeware)
+* !ScreenSpace* from Dandeware - Control window placement and size on Windows (Windows commercial US$12)
